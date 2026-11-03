@@ -2,3 +2,7 @@ node_modules/
 logs/
 backups/
 .env
+
+# file-integrity protection (added, does not affect CIDC data)
+security/.baselines/
+security/.integrity.log
