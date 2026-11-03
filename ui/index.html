@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="km"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CIDC Dashboard</title>
+<style>
+:root{--bg:#0b0f17;--card:#141b28;--tx:#e6edf6;--mut:#8a98ad;--ac:#3fa7ff;--ok:#3ecf8e;--wn:#f5b942}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px system-ui,"Noto Sans Khmer",sans-serif}
+header{padding:14px 16px;border-bottom:1px solid #223}h1{margin:0;font-size:18px}small{color:var(--mut)}
+nav{display:flex;gap:6px;overflow-x:auto;padding:10px 12px;border-bottom:1px solid #223}
+nav button{background:var(--card);color:var(--tx);border:1px solid #2a3550;border-radius:8px;padding:7px 11px;white-space:nowrap}
+nav button.on{background:var(--ac);color:#04121f;border-color:var(--ac)}
+main{padding:12px;max-width:900px;margin:auto}.card{background:var(--card);border-radius:10px;padding:12px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}.n{font-size:26px;color:var(--ac)}
+.row{padding:8px 0;border-bottom:1px solid #1f2940;overflow-wrap:anywhere}.row:last-child{border:0}
+.tag{display:inline-block;font-size:12px;padding:1px 7px;border-radius:9px;background:#22304a;color:var(--mut);margin:2px 3px 0 0}
+.planned{color:var(--wn)}.started{color:var(--ok)}
+input{width:100%;padding:10px;border-radius:8px;border:1px solid #2a3550;background:#0e1420;color:var(--tx);font-size:15px;margin:6px 0}
+select{padding:9px;border-radius:8px;background:#0e1420;color:var(--tx);border:1px solid #2a3550}
+.err{color:#ff7b7b}
+</style></head><body>
+<header><h1>Central Intelligence Data Core</h1><small>KHOEM-AI | ស្នូលទិន្នន័យបញ្ញាកណ្ដាល</small></header>
+<nav id="nav"></nav><main id="main"></main>
+<script>
+const TABS=[["overview","Overview"],["modules","Modules"],["languages","Languages"],["formats","File Formats"],["templates","Templates"],["search","Search"],["validation","Validation"],["stats","Statistics"]];
+const $=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
+const main=document.getElementById("main"),nav=document.getElementById("nav");
+async function api(p,body){const r=await fetch("/api/cidc/"+p,body?{method:"POST",body:JSON.stringify(body)}:{});if(!r.ok)throw new Error(p+" "+r.status);return r.json()}
+function list(items,fn){const c=$("div","card");if(!items.length)c.appendChild($("div","row","(ទទេ / empty)"));items.forEach(i=>{const r=$("div","row");fn(r,i);c.appendChild(r)});return c}
+const V={
+async overview(){const[s,m]=await Promise.all([api("statistics"),api("modules")]);const g=$("div","grid");
+ Object.entries(s).forEach(([k,v])=>{const c=$("div","card");c.appendChild($("div","n",v));c.appendChild($("small","",k));g.appendChild(c)});
+ const st=m.items.filter(x=>x.status==="started").length;const c=$("div","card");c.appendChild($("div","n",st+" / "+m.items.length));c.appendChild($("small","","modules started"));g.appendChild(c);return g},
+async modules(){const m=await api("modules");return list(m.items,(r,i)=>{r.appendChild($("span","",i.name+" "));r.appendChild($("span",i.status,"["+i.status+"]"))})},
+async languages(){const l=await api("languages");return list(l.items,(r,i)=>{r.appendChild($("b","",i.name));r.appendChild($("br"));i.groups.forEach(g=>r.appendChild($("span","tag",g)));r.appendChild($("span","tag",i.verification_status))})},
+async formats(){const f=await api("file-formats");return list(f.items,(r,i)=>{r.appendChild($("b","",i.language+"  "));r.appendChild($("span","",i.extensions.join(" ")));r.appendChild($("br"));r.appendChild($("span","tag",i.mime_type||"-"));r.appendChild($("span","tag",i.verification_status))})},
+async templates(){const t=await api("templates");return list(t.items,(r,i)=>{r.textContent=i.name||JSON.stringify(i)})},
+async validation(){const c=$("div");for(const[col,label]of[["languages","Languages"],["file-formats","File Formats"],["templates","Templates"]]){const d=await api("search",{collection:col});const n={};d.items.forEach(i=>n[i.verification_status]=(n[i.verification_status]||0)+1);
+ const k=$("div","card");k.appendChild($("b","",label+" ("+d.count+")"));k.appendChild($("br"));Object.entries(n).forEach(([s,v])=>k.appendChild($("span","tag",s+": "+v)));if(!d.count)k.appendChild($("small","","empty"));c.appendChild(k)}return c},
+async stats(){const[s,v,h]=await Promise.all([api("statistics"),api("version"),api("health")]);const c=$("div","card");[["API health",h.status],["Version",v.version],...Object.entries(s)].forEach(([k,x])=>{const r=$("div","row");r.textContent=k+": "+x;c.appendChild(r)});return c},
+async search(){const w=$("div");const sel=$("select");["languages","file-formats","templates"].forEach(x=>sel.appendChild($("option","",x)));const inp=$("input");inp.placeholder="ស្វែងរក / search…";const out=$("div");
+ const go=async()=>{out.replaceChildren();try{const d=await api("search",{collection:sel.value,query:inp.value});out.appendChild($("small","",d.count+" result(s)"));out.appendChild(list(d.items.slice(0,100),(r,i)=>{r.textContent=(i.name||i.language)+"  ["+i.verification_status+"]"}))}catch(e){out.appendChild($("div","err",e.message))}};
+ inp.oninput=go;sel.onchange=go;w.append(sel,inp,out);go();return w}};
+async function show(k){[...nav.children].forEach(b=>b.classList.toggle("on",b.dataset.k===k));main.replaceChildren($("small","","loading…"));
+ try{main.replaceChildren(await V[k]())}catch(e){main.replaceChildren($("div","err","Error: "+e.message))}}
+TABS.forEach(([k,l])=>{const b=$("button","",l);b.dataset.k=k;b.onclick=()=>show(k);nav.appendChild(b)});show("overview");
+</script></body></html>

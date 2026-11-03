@@ -60,7 +60,7 @@ http.createServer(async (req, res) => {
         const idKey = Object.keys(items[0] || {})[0];
         return send(req, res, 200, { item: items.find((i) => i[idKey] === b.id) || null });
       }
-      if (b.query) { const q = String(b.query).toLowerCase(); items = items.filter((i) => JSON.stringify(i).toLowerCase().includes(q)); }
+      if (b.query) { const q = String(b.query).toLowerCase(); items = items.filter((i) => [i.name, i.language, i.language_id, i.file_format_id, (i.groups || []).join(" "), (i.extensions || []).join(" "), i.mime_type].filter(Boolean).join(" ").toLowerCase().includes(q)); }
       return send(req, res, 200, { count: items.length, items });
     }
     send(req, res, 404, { error: "not_found" });
