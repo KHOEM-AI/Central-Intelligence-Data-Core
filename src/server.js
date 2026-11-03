@@ -36,6 +36,7 @@ http.createServer(async (req, res) => {
   try {
     const url = req.url.split("?")[0];
     if (limited(req.socket.remoteAddress)) return send(req, res, 429, { error: "rate_limited" });
+    if (req.method === "GET" && url === "/api/cidc/health") return send(req, res, 200, { status: "ok" });
     if (req.headers.authorization !== "Bearer " + TOKEN) return send(req, res, 401, { error: "unauthorized" });
     // Read-only gateway: write/delete methods are not allowed here
     if (req.method === "GET") {
