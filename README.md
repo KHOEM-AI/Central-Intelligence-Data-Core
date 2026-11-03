@@ -4,19 +4,16 @@ KHOEM-AI | ស្នូលទិន្នន័យបញ្ញាកណ្ដា
 មជ្ឈមណ្ឌលទិន្នន័យកណ្ដាលរបស់ KHOEM-AI។ មានតែ KHOEM-AI AI/UI ប៉ុណ្ណោះដែលទាញយកទិន្នន័យតាម Gateway។
 
 ## រចនាសម្ព័ន្ធ
-- `data/languages.json` : Programming Language Registry
-- `data/file-formats.json` : Code File Format Registry
-- `data/templates.json` : Code Templates (ទទេ)
-- `data/modules.json` : បញ្ជី Modules (started / planned)
-- `data/schema/metadata.schema.json` : Metadata ស្តង់ដារ
-- `src/server.js` : API Gateway (read-only, Bearer token)
+- `data/` : languages, file-formats, templates, modules, schema
+- `src/server.js` : API Gateway :8800 (read-only, Bearer token)
+- `src/ui.js` + `ui/index.html` : Dashboard :5190
 - `scripts/validate.js` : Data Validation
+- `docs/SPEC.md` : ឯកសារផែនការដើម, `docs/PHASES.md` : ដំណាក់កាល
 
 ## ប្រើ (Termux)
-```
-export CIDC_TOKEN=សម្ងាត់របស់បង
-npm run validate
-npm start
-curl -H "Authorization: Bearer $CIDC_TOKEN" localhost:3000/api/cidc/statistics
-```
-ស្ថានភាពទិន្នន័យទាំងអស់ = `draft` រហូតដល់ត្រូវបានផ្ទៀងផ្ទាត់។ ផែនការ៖ `docs/PHASES.md`
+Token ទុកក្នុង `~/.cidc_env` (មិន push): `export CIDC_TOKEN=...`
+- រត់ជាមួយសេវាផ្សេង៖ `ai` (launcher នៅ repo KHOEM_AI បន្ថែម CIDC API :8800 និង UI :5190)
+- រត់តែឯង៖ `source ~/.cidc_env && PORT=8800 npm start` និង `UI_PORT=5190 npm run ui`
+- ពិនិត្យទិន្នន័យ៖ `npm run validate`
+
+ស្ថានភាពទិន្នន័យទាំងអស់ = `draft` រហូតដល់ត្រូវបានផ្ទៀងផ្ទាត់។
