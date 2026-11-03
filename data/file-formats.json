@@ -1,0 +1,697 @@
+{
+  "registry": "code-file-formats",
+  "version": "0.1.0",
+  "items": [
+    {
+      "file_format_id": "ff-python",
+      "language": "Python",
+      "extensions": [
+        ".py",
+        ".pyi",
+        ".pyw"
+      ],
+      "mime_type": "text/x-python",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-javascript",
+      "language": "JavaScript",
+      "extensions": [
+        ".js",
+        ".mjs",
+        ".cjs",
+        ".jsx"
+      ],
+      "mime_type": "text/javascript",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-typescript",
+      "language": "TypeScript",
+      "extensions": [
+        ".ts",
+        ".tsx",
+        ".mts",
+        ".cts"
+      ],
+      "mime_type": "text/typescript",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-html",
+      "language": "HTML",
+      "extensions": [
+        ".html",
+        ".htm"
+      ],
+      "mime_type": "text/html",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-css",
+      "language": "CSS",
+      "extensions": [
+        ".css"
+      ],
+      "mime_type": "text/css",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-java",
+      "language": "Java",
+      "extensions": [
+        ".java"
+      ],
+      "mime_type": "text/x-java-source",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-c",
+      "language": "C",
+      "extensions": [
+        ".c",
+        ".h"
+      ],
+      "mime_type": "text/x-c",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-cpp",
+      "language": "C++",
+      "extensions": [
+        ".cpp",
+        ".cc",
+        ".cxx",
+        ".hpp"
+      ],
+      "mime_type": "text/x-c++src",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-csharp",
+      "language": "C#",
+      "extensions": [
+        ".cs"
+      ],
+      "mime_type": "text/x-csharp",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-go",
+      "language": "Go",
+      "extensions": [
+        ".go"
+      ],
+      "mime_type": "text/x-go",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-rust",
+      "language": "Rust",
+      "extensions": [
+        ".rs"
+      ],
+      "mime_type": "text/x-rust",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-php",
+      "language": "PHP",
+      "extensions": [
+        ".php"
+      ],
+      "mime_type": "application/x-httpd-php",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-ruby",
+      "language": "Ruby",
+      "extensions": [
+        ".rb"
+      ],
+      "mime_type": "text/x-ruby",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-swift",
+      "language": "Swift",
+      "extensions": [
+        ".swift"
+      ],
+      "mime_type": "text/x-swift",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-kotlin",
+      "language": "Kotlin",
+      "extensions": [
+        ".kt",
+        ".kts"
+      ],
+      "mime_type": "text/x-kotlin",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-dart",
+      "language": "Dart",
+      "extensions": [
+        ".dart"
+      ],
+      "mime_type": "application/vnd.dart",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-sql",
+      "language": "SQL",
+      "extensions": [
+        ".sql"
+      ],
+      "mime_type": "application/sql",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-bash",
+      "language": "Bash",
+      "extensions": [
+        ".sh",
+        ".bash"
+      ],
+      "mime_type": "application/x-sh",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-powershell",
+      "language": "PowerShell",
+      "extensions": [
+        ".ps1",
+        ".psm1"
+      ],
+      "mime_type": "text/plain",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-lua",
+      "language": "Lua",
+      "extensions": [
+        ".lua"
+      ],
+      "mime_type": "text/x-lua",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-r",
+      "language": "R",
+      "extensions": [
+        ".r",
+        ".R"
+      ],
+      "mime_type": "text/x-r",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-julia",
+      "language": "Julia",
+      "extensions": [
+        ".jl"
+      ],
+      "mime_type": "text/x-julia",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-haskell",
+      "language": "Haskell",
+      "extensions": [
+        ".hs"
+      ],
+      "mime_type": "text/x-haskell",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-scala",
+      "language": "Scala",
+      "extensions": [
+        ".scala"
+      ],
+      "mime_type": "text/x-scala",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-solidity",
+      "language": "Solidity",
+      "extensions": [
+        ".sol"
+      ],
+      "mime_type": "text/plain",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-verilog",
+      "language": "Verilog",
+      "extensions": [
+        ".v",
+        ".sv"
+      ],
+      "mime_type": "text/plain",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-vhdl",
+      "language": "VHDL",
+      "extensions": [
+        ".vhd",
+        ".vhdl"
+      ],
+      "mime_type": "text/plain",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-assembly",
+      "language": "Assembly",
+      "extensions": [
+        ".asm",
+        ".s"
+      ],
+      "mime_type": "text/x-asm",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-xml",
+      "language": "XML",
+      "extensions": [
+        ".xml"
+      ],
+      "mime_type": "application/xml",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-json",
+      "language": "JSON",
+      "extensions": [
+        ".json"
+      ],
+      "mime_type": "application/json",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-yaml",
+      "language": "YAML",
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "mime_type": "application/yaml",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-toml",
+      "language": "TOML",
+      "extensions": [
+        ".toml"
+      ],
+      "mime_type": "application/toml",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-markdown",
+      "language": "Markdown",
+      "extensions": [
+        ".md",
+        ".markdown"
+      ],
+      "mime_type": "text/markdown",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-latex",
+      "language": "LaTeX",
+      "extensions": [
+        ".tex"
+      ],
+      "mime_type": "application/x-tex",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-graphql",
+      "language": "GraphQL",
+      "extensions": [
+        ".graphql",
+        ".gql"
+      ],
+      "mime_type": "application/graphql",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-glsl",
+      "language": "GLSL",
+      "extensions": [
+        ".glsl",
+        ".vert",
+        ".frag"
+      ],
+      "mime_type": "text/plain",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    },
+    {
+      "file_format_id": "ff-hlsl",
+      "language": "HLSL",
+      "extensions": [
+        ".hlsl"
+      ],
+      "mime_type": "text/plain",
+      "encoding": "UTF-8",
+      "syntax_definition": null,
+      "formatter": null,
+      "linter": null,
+      "compiler": null,
+      "interpreter": null,
+      "runtime": null,
+      "documentation": null,
+      "verification_status": "draft",
+      "version": "0.1.0"
+    }
+  ]
+}

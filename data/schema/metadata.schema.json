@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CIDC Metadata",
+  "type": "object",
+  "required": [
+    "data_id",
+    "data_name",
+    "category",
+    "verification_status",
+    "version"
+  ],
+  "properties": {
+    "data_id": {
+      "type": "string"
+    },
+    "data_name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "created_date": {
+      "type": "string"
+    },
+    "updated_date": {
+      "type": "string"
+    },
+    "trust_level": {
+      "type": "string"
+    },
+    "checksum": {
+      "type": "string"
+    },
+    "verification_status": {
+      "enum": [
+        "draft",
+        "pending_review",
+        "verified",
+        "deprecated",
+        "rejected"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

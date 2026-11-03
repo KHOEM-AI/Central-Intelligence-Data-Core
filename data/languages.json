@@ -1,0 +1,664 @@
+{
+  "registry": "programming-languages",
+  "version": "0.1.0",
+  "note": "Starter list. Add more languages freely.",
+  "items": [
+    {
+      "language_id": "html",
+      "name": "HTML",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "css",
+      "name": "CSS",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "javascript",
+      "name": "JavaScript",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "typescript",
+      "name": "TypeScript",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "php",
+      "name": "PHP",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "webassembly-text-format",
+      "name": "WebAssembly Text Format",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "python",
+      "name": "Python",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "java",
+      "name": "Java",
+      "groups": [
+        "general-purpose",
+        "mobile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "csharp",
+      "name": "C#",
+      "groups": [
+        "general-purpose",
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "go",
+      "name": "Go",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "ruby",
+      "name": "Ruby",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "kotlin",
+      "name": "Kotlin",
+      "groups": [
+        "general-purpose",
+        "mobile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "dart",
+      "name": "Dart",
+      "groups": [
+        "general-purpose",
+        "mobile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "scala",
+      "name": "Scala",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "groovy",
+      "name": "Groovy",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "perl",
+      "name": "Perl",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "c",
+      "name": "C",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cpp",
+      "name": "C++",
+      "groups": [
+        "systems",
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "rust",
+      "name": "Rust",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "assembly",
+      "name": "Assembly",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "zig",
+      "name": "Zig",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "nim",
+      "name": "Nim",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "d",
+      "name": "D",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "objective-c",
+      "name": "Objective-C",
+      "groups": [
+        "systems",
+        "mobile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "swift",
+      "name": "Swift",
+      "groups": [
+        "mobile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "haskell",
+      "name": "Haskell",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "lisp",
+      "name": "Lisp",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "clojure",
+      "name": "Clojure",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "erlang",
+      "name": "Erlang",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "elixir",
+      "name": "Elixir",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "fsharp",
+      "name": "F#",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "ocaml",
+      "name": "OCaml",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "elm",
+      "name": "Elm",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "scheme",
+      "name": "Scheme",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sql",
+      "name": "SQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "pl-sql",
+      "name": "PL/SQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "t-sql",
+      "name": "T-SQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "graphql",
+      "name": "GraphQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sparql",
+      "name": "SPARQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cypher",
+      "name": "Cypher",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "bash",
+      "name": "Bash",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "zsh",
+      "name": "Zsh",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "powershell",
+      "name": "PowerShell",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "lua",
+      "name": "Lua",
+      "groups": [
+        "scripting",
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "tcl",
+      "name": "Tcl",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "awk",
+      "name": "AWK",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "fish-shell",
+      "name": "Fish Shell",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "r",
+      "name": "R",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "julia",
+      "name": "Julia",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "matlab",
+      "name": "MATLAB",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "fortran",
+      "name": "Fortran",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sas",
+      "name": "SAS",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "wolfram-language",
+      "name": "Wolfram Language",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "verilog",
+      "name": "Verilog",
+      "groups": [
+        "hardware-description"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "systemverilog",
+      "name": "SystemVerilog",
+      "groups": [
+        "hardware-description"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "vhdl",
+      "name": "VHDL",
+      "groups": [
+        "hardware-description"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "chisel",
+      "name": "Chisel",
+      "groups": [
+        "hardware-description"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "solidity",
+      "name": "Solidity",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "vyper",
+      "name": "Vyper",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "move",
+      "name": "Move",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cairo",
+      "name": "Cairo",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "gdscript",
+      "name": "GDScript",
+      "groups": [
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "hlsl",
+      "name": "HLSL",
+      "groups": [
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "glsl",
+      "name": "GLSL",
+      "groups": [
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "shaderlab",
+      "name": "ShaderLab",
+      "groups": [
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ]
+}

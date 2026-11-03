@@ -1,0 +1,9 @@
+{
+  "name": "central-intelligence-data-core",
+  "version": "0.1.0",
+  "description": "KHOEM-AI CIDC - central data core",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "validate": "node scripts/validate.js", "test": "node scripts/validate.js" },
+  "license": "UNLICENSED",
+  "private": true
+}

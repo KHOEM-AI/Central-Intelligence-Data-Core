@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "name": "Programming Languages Data",
+      "status": "started"
+    },
+    {
+      "name": "Code File Formats Data",
+      "status": "started"
+    },
+    {
+      "name": "Code Templates Data",
+      "status": "started"
+    },
+    {
+      "name": "Software Development Data",
+      "status": "planned"
+    },
+    {
+      "name": "Web Development Data",
+      "status": "planned"
+    },
+    {
+      "name": "Mobile Development Data",
+      "status": "planned"
+    },
+    {
+      "name": "Database & SQL Data",
+      "status": "planned"
+    },
+    {
+      "name": "API & Protocol Data",
+      "status": "planned"
+    },
+    {
+      "name": "Operating Systems Data",
+      "status": "planned"
+    },
+    {
+      "name": "Networking Data",
+      "status": "planned"
+    },
+    {
+      "name": "Cybersecurity Data",
+      "status": "planned"
+    },
+    {
+      "name": "Artificial Intelligence Data",
+      "status": "planned"
+    },
+    {
+      "name": "Machine Learning Data",
+      "status": "planned"
+    },
+    {
+      "name": "Mathematics & Science Data",
+      "status": "planned"
+    },
+    {
+      "name": "Khmer Language Data",
+      "status": "planned"
+    },
+    {
+      "name": "Multilingual Language Data",
+      "status": "planned"
+    },
+    {
+      "name": "General Knowledge Data",
+      "status": "planned"
+    },
+    {
+      "name": "Documentation Library",
+      "status": "planned"
+    },
+    {
+      "name": "Data Validation Center",
+      "status": "planned"
+    },
+    {
+      "name": "Data Version Management",
+      "status": "planned"
+    },
+    {
+      "name": "Data Security & Backup",
+      "status": "planned"
+    }
+  ]
+}
