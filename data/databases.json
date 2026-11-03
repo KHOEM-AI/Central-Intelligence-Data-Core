@@ -1,0 +1,415 @@
+{
+  "registry": "databases",
+  "version": "0.1.0",
+  "note": "Starter list (draft). Add more freely; verify before use.",
+  "items": [
+    {
+      "database_id": "postgresql",
+      "name": "PostgreSQL",
+      "type": "relational",
+      "query_languages": [
+        "sql",
+        "plpgsql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "mysql",
+      "name": "MySQL",
+      "type": "relational",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "mariadb",
+      "name": "MariaDB",
+      "type": "relational",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "sqlite",
+      "name": "SQLite",
+      "type": "relational-embedded",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "sql-server",
+      "name": "Microsoft SQL Server",
+      "type": "relational",
+      "query_languages": [
+        "t-sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "oracle-database",
+      "name": "Oracle Database",
+      "type": "relational",
+      "query_languages": [
+        "sql",
+        "pl-sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "cockroachdb",
+      "name": "CockroachDB",
+      "type": "relational-distributed",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "mongodb",
+      "name": "MongoDB",
+      "type": "document",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "couchdb",
+      "name": "Apache CouchDB",
+      "type": "document",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "firestore",
+      "name": "Cloud Firestore",
+      "type": "document",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "dynamodb",
+      "name": "Amazon DynamoDB",
+      "type": [
+        "key-value",
+        "document"
+      ],
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "cassandra",
+      "name": "Apache Cassandra",
+      "type": "wide-column",
+      "query_languages": [
+        "cql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "scylladb",
+      "name": "ScyllaDB",
+      "type": "wide-column",
+      "query_languages": [
+        "cql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "redis",
+      "name": "Redis",
+      "type": "key-value",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "valkey",
+      "name": "Valkey",
+      "type": "key-value",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "memcached",
+      "name": "Memcached",
+      "type": "key-value",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "etcd",
+      "name": "etcd",
+      "type": "key-value",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "rocksdb",
+      "name": "RocksDB",
+      "type": "key-value-embedded",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "leveldb",
+      "name": "LevelDB",
+      "type": "key-value-embedded",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "elasticsearch",
+      "name": "Elasticsearch",
+      "type": "search",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "opensearch",
+      "name": "OpenSearch",
+      "type": "search",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "solr",
+      "name": "Apache Solr",
+      "type": "search",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "meilisearch",
+      "name": "Meilisearch",
+      "type": "search",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "typesense",
+      "name": "Typesense",
+      "type": "search",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "neo4j",
+      "name": "Neo4j",
+      "type": "graph",
+      "query_languages": [
+        "cypher"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "arangodb",
+      "name": "ArangoDB",
+      "type": "multi-model",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "janusgraph",
+      "name": "JanusGraph",
+      "type": "graph",
+      "query_languages": [
+        "gremlin"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "influxdb",
+      "name": "InfluxDB",
+      "type": "time-series",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "timescaledb",
+      "name": "TimescaleDB",
+      "type": "time-series",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "clickhouse",
+      "name": "ClickHouse",
+      "type": "olap",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "duckdb",
+      "name": "DuckDB",
+      "type": "olap-embedded",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "bigquery",
+      "name": "Google BigQuery",
+      "type": "data-warehouse",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "snowflake",
+      "name": "Snowflake",
+      "type": "data-warehouse",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "chroma",
+      "name": "Chroma",
+      "type": "vector",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "qdrant",
+      "name": "Qdrant",
+      "type": "vector",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "weaviate",
+      "name": "Weaviate",
+      "type": "vector",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "milvus",
+      "name": "Milvus",
+      "type": "vector",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "pinecone",
+      "name": "Pinecone",
+      "type": "vector",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "pgvector",
+      "name": "pgvector",
+      "type": "vector",
+      "query_languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "faiss",
+      "name": "FAISS",
+      "type": "vector-library",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "database_id": "surrealdb",
+      "name": "SurrealDB",
+      "type": "multi-model",
+      "query_languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ]
+}

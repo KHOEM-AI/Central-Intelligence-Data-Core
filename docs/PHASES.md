@@ -6,3 +6,8 @@
 - [ ] Phase 2, 5, 6, 7, 9, 10: not started
 
 Everything in data/ is `draft` until verified by a human. Nothing is auto-verified.
+
+## Update: data registries
+- [~] Registries added (all `draft`): frameworks, databases, protocols, tools, platforms; templates are descriptors only (no bundled source code).
+- [~] Gateway exposes the new registries read-only (`GET /api/cidc/<registry>`, `POST /api/cidc/search|retrieve`).
+- [ ] Human verification of source, license and version for every item is still pending.

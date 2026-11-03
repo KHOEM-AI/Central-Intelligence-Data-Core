@@ -1,0 +1,1942 @@
+{
+  "registry": "frameworks-libraries",
+  "version": "0.1.0",
+  "note": "Starter list (draft). Add more freely; verify before use.",
+  "items": [
+    {
+      "framework_id": "react",
+      "name": "React",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "vue",
+      "name": "Vue.js",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "angular",
+      "name": "Angular",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "svelte",
+      "name": "Svelte",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "solidjs",
+      "name": "SolidJS",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "preact",
+      "name": "Preact",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "lit",
+      "name": "Lit",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "qwik",
+      "name": "Qwik",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "alpinejs",
+      "name": "Alpine.js",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "htmx",
+      "name": "htmx",
+      "languages": [
+        "html"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "jquery",
+      "name": "jQuery",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "web-frontend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "nextjs",
+      "name": "Next.js",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-fullstack",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "nuxt",
+      "name": "Nuxt",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-fullstack",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "remix",
+      "name": "Remix",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-fullstack",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "astro",
+      "name": "Astro",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-fullstack",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "sveltekit",
+      "name": "SvelteKit",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "web-fullstack",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "languages": [
+        "css"
+      ],
+      "domain": "ui-styling",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "bootstrap",
+      "name": "Bootstrap",
+      "languages": [
+        "css",
+        "javascript"
+      ],
+      "domain": "ui-styling",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "mui",
+      "name": "MUI (Material UI)",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "ui-components",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "ant-design",
+      "name": "Ant Design",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "ui-components",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "chakra-ui",
+      "name": "Chakra UI",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "ui-components",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "d3",
+      "name": "D3.js",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "data-viz",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "chartjs",
+      "name": "Chart.js",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "data-viz",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "threejs",
+      "name": "Three.js",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "game-3d",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "babylonjs",
+      "name": "Babylon.js",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "game-3d",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "express",
+      "name": "Express",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "fastify",
+      "name": "Fastify",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "koa",
+      "name": "Koa",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "nestjs",
+      "name": "NestJS",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "hono",
+      "name": "Hono",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "django",
+      "name": "Django",
+      "languages": [
+        "python"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "flask",
+      "name": "Flask",
+      "languages": [
+        "python"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "fastapi",
+      "name": "FastAPI",
+      "languages": [
+        "python"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "rails",
+      "name": "Ruby on Rails",
+      "languages": [
+        "ruby"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "sinatra",
+      "name": "Sinatra",
+      "languages": [
+        "ruby"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "laravel",
+      "name": "Laravel",
+      "languages": [
+        "php"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "symfony",
+      "name": "Symfony",
+      "languages": [
+        "php"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "codeigniter",
+      "name": "CodeIgniter",
+      "languages": [
+        "php"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "spring-boot",
+      "name": "Spring Boot",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "quarkus",
+      "name": "Quarkus",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "micronaut",
+      "name": "Micronaut",
+      "languages": [
+        "java",
+        "kotlin",
+        "groovy"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "aspnet-core",
+      "name": "ASP.NET Core",
+      "languages": [
+        "csharp",
+        "fsharp"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "gin",
+      "name": "Gin",
+      "languages": [
+        "go"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "echo",
+      "name": "Echo",
+      "languages": [
+        "go"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "fiber",
+      "name": "Fiber",
+      "languages": [
+        "go"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "actix-web",
+      "name": "Actix Web",
+      "languages": [
+        "rust"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "axum",
+      "name": "Axum",
+      "languages": [
+        "rust"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "rocket",
+      "name": "Rocket",
+      "languages": [
+        "rust"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "phoenix",
+      "name": "Phoenix",
+      "languages": [
+        "elixir"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "play-framework",
+      "name": "Play Framework",
+      "languages": [
+        "scala",
+        "java"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "ktor",
+      "name": "Ktor",
+      "languages": [
+        "kotlin"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "vapor",
+      "name": "Vapor",
+      "languages": [
+        "swift"
+      ],
+      "domain": "web-backend",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "flutter",
+      "name": "Flutter",
+      "languages": [
+        "dart"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "react-native",
+      "name": "React Native",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "expo",
+      "name": "Expo",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "ionic",
+      "name": "Ionic",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "capacitor",
+      "name": "Capacitor",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "nativescript",
+      "name": "NativeScript",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "dotnet-maui",
+      "name": ".NET MAUI",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "jetpack-compose",
+      "name": "Jetpack Compose",
+      "languages": [
+        "kotlin"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "android-sdk",
+      "name": "Android SDK",
+      "languages": [
+        "kotlin",
+        "java"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "swiftui",
+      "name": "SwiftUI",
+      "languages": [
+        "swift"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "uikit",
+      "name": "UIKit",
+      "languages": [
+        "swift",
+        "objective-c"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "kotlin-multiplatform",
+      "name": "Kotlin Multiplatform",
+      "languages": [
+        "kotlin"
+      ],
+      "domain": "mobile",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "electron",
+      "name": "Electron",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "tauri",
+      "name": "Tauri",
+      "languages": [
+        "rust",
+        "javascript",
+        "typescript"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "qt",
+      "name": "Qt",
+      "languages": [
+        "cpp",
+        "python"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "gtk",
+      "name": "GTK",
+      "languages": [
+        "c",
+        "python",
+        "vala"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "wxwidgets",
+      "name": "wxWidgets",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "javafx",
+      "name": "JavaFX",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "wpf",
+      "name": "WPF",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "winforms",
+      "name": "Windows Forms",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "avalonia",
+      "name": "Avalonia",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "tkinter",
+      "name": "Tkinter",
+      "languages": [
+        "python"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "imgui",
+      "name": "Dear ImGui",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "desktop",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "unity",
+      "name": "Unity",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "unreal-engine",
+      "name": "Unreal Engine",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "godot",
+      "name": "Godot Engine",
+      "languages": [
+        "gdscript",
+        "csharp",
+        "cpp"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "pygame",
+      "name": "Pygame",
+      "languages": [
+        "python"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "libgdx",
+      "name": "libGDX",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "bevy",
+      "name": "Bevy",
+      "languages": [
+        "rust"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "love2d",
+      "name": "LÖVE",
+      "languages": [
+        "lua"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "phaser",
+      "name": "Phaser",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "monogame",
+      "name": "MonoGame",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "raylib",
+      "name": "raylib",
+      "languages": [
+        "c"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "sdl",
+      "name": "SDL",
+      "languages": [
+        "c"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "sfml",
+      "name": "SFML",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "game",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "pytorch",
+      "name": "PyTorch",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "tensorflow",
+      "name": "TensorFlow",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "keras",
+      "name": "Keras",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "jax",
+      "name": "JAX",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "scikit-learn",
+      "name": "scikit-learn",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "xgboost",
+      "name": "XGBoost",
+      "languages": [
+        "python",
+        "r"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "lightgbm",
+      "name": "LightGBM",
+      "languages": [
+        "python",
+        "r"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "transformers",
+      "name": "Hugging Face Transformers",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "onnx-runtime",
+      "name": "ONNX Runtime",
+      "languages": [
+        "python",
+        "cpp",
+        "csharp"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "opencv",
+      "name": "OpenCV",
+      "languages": [
+        "cpp",
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "spacy",
+      "name": "spaCy",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "nltk",
+      "name": "NLTK",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "langchain",
+      "name": "LangChain",
+      "languages": [
+        "python",
+        "typescript"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "llamaindex",
+      "name": "LlamaIndex",
+      "languages": [
+        "python",
+        "typescript"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "mlflow",
+      "name": "MLflow",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "ray",
+      "name": "Ray",
+      "languages": [
+        "python"
+      ],
+      "domain": "ai-ml",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "numpy",
+      "name": "NumPy",
+      "languages": [
+        "python"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "pandas",
+      "name": "pandas",
+      "languages": [
+        "python"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "polars",
+      "name": "Polars",
+      "languages": [
+        "python",
+        "rust"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "scipy",
+      "name": "SciPy",
+      "languages": [
+        "python"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "matplotlib",
+      "name": "Matplotlib",
+      "languages": [
+        "python"
+      ],
+      "domain": "data-viz",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "seaborn",
+      "name": "seaborn",
+      "languages": [
+        "python"
+      ],
+      "domain": "data-viz",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "plotly",
+      "name": "Plotly",
+      "languages": [
+        "python",
+        "javascript",
+        "r"
+      ],
+      "domain": "data-viz",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "dask",
+      "name": "Dask",
+      "languages": [
+        "python"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "apache-spark",
+      "name": "Apache Spark",
+      "languages": [
+        "scala",
+        "java",
+        "python",
+        "r"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "apache-airflow",
+      "name": "Apache Airflow",
+      "languages": [
+        "python"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "dbt",
+      "name": "dbt",
+      "languages": [
+        "sql"
+      ],
+      "domain": "data",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "apache-kafka",
+      "name": "Apache Kafka",
+      "languages": [
+        "java",
+        "scala"
+      ],
+      "domain": "messaging",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "rabbitmq",
+      "name": "RabbitMQ",
+      "languages": [
+        "erlang"
+      ],
+      "domain": "messaging",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "sqlalchemy",
+      "name": "SQLAlchemy",
+      "languages": [
+        "python"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "django-orm",
+      "name": "Django ORM",
+      "languages": [
+        "python"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "hibernate",
+      "name": "Hibernate",
+      "languages": [
+        "java"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "entity-framework",
+      "name": "Entity Framework Core",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "prisma",
+      "name": "Prisma",
+      "languages": [
+        "typescript",
+        "javascript"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "typeorm",
+      "name": "TypeORM",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "drizzle-orm",
+      "name": "Drizzle ORM",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "gorm",
+      "name": "GORM",
+      "languages": [
+        "go"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "diesel",
+      "name": "Diesel",
+      "languages": [
+        "rust"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "activerecord",
+      "name": "Active Record",
+      "languages": [
+        "ruby"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "eloquent",
+      "name": "Eloquent",
+      "languages": [
+        "php"
+      ],
+      "domain": "orm",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "jest",
+      "name": "Jest",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "vitest",
+      "name": "Vitest",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "mocha",
+      "name": "Mocha",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "cypress",
+      "name": "Cypress",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "playwright",
+      "name": "Playwright",
+      "languages": [
+        "javascript",
+        "typescript",
+        "python",
+        "java",
+        "csharp"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "selenium",
+      "name": "Selenium",
+      "languages": [
+        "java",
+        "python",
+        "csharp",
+        "javascript",
+        "ruby"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "puppeteer",
+      "name": "Puppeteer",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "pytest",
+      "name": "pytest",
+      "languages": [
+        "python"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "unittest",
+      "name": "unittest",
+      "languages": [
+        "python"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "junit",
+      "name": "JUnit",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "testng",
+      "name": "TestNG",
+      "languages": [
+        "java"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "mockito",
+      "name": "Mockito",
+      "languages": [
+        "java",
+        "kotlin"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "nunit",
+      "name": "NUnit",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "xunit",
+      "name": "xUnit.net",
+      "languages": [
+        "csharp"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "rspec",
+      "name": "RSpec",
+      "languages": [
+        "ruby"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "phpunit",
+      "name": "PHPUnit",
+      "languages": [
+        "php"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "googletest",
+      "name": "GoogleTest",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "catch2",
+      "name": "Catch2",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "cucumber",
+      "name": "Cucumber",
+      "languages": [
+        "java",
+        "javascript",
+        "ruby"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "robot-framework",
+      "name": "Robot Framework",
+      "languages": [
+        "python"
+      ],
+      "domain": "testing",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "k6",
+      "name": "k6",
+      "languages": [
+        "javascript"
+      ],
+      "domain": "testing-load",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "locust",
+      "name": "Locust",
+      "languages": [
+        "python"
+      ],
+      "domain": "testing-load",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "jmeter",
+      "name": "Apache JMeter",
+      "languages": [
+        "java"
+      ],
+      "domain": "testing-load",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "gatling",
+      "name": "Gatling",
+      "languages": [
+        "scala",
+        "java",
+        "kotlin"
+      ],
+      "domain": "testing-load",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "arduino-core",
+      "name": "Arduino Core",
+      "languages": [
+        "arduino"
+      ],
+      "domain": "embedded-iot",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "esp-idf",
+      "name": "ESP-IDF",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "domain": "embedded-iot",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "platformio",
+      "name": "PlatformIO",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "domain": "embedded-iot",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "zephyr",
+      "name": "Zephyr RTOS",
+      "languages": [
+        "c"
+      ],
+      "domain": "embedded-iot",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "freertos",
+      "name": "FreeRTOS",
+      "languages": [
+        "c"
+      ],
+      "domain": "embedded-iot",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "mbed-os",
+      "name": "Mbed OS",
+      "languages": [
+        "cpp"
+      ],
+      "domain": "embedded-iot",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "ros2",
+      "name": "ROS 2",
+      "languages": [
+        "cpp",
+        "python"
+      ],
+      "domain": "robotics",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "hardhat",
+      "name": "Hardhat",
+      "languages": [
+        "javascript",
+        "typescript",
+        "solidity"
+      ],
+      "domain": "blockchain",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "foundry",
+      "name": "Foundry",
+      "languages": [
+        "solidity",
+        "rust"
+      ],
+      "domain": "blockchain",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "openzeppelin-contracts",
+      "name": "OpenZeppelin Contracts",
+      "languages": [
+        "solidity"
+      ],
+      "domain": "blockchain",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "anchor",
+      "name": "Anchor",
+      "languages": [
+        "rust"
+      ],
+      "domain": "blockchain",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "ethers-js",
+      "name": "ethers.js",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "blockchain",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "graphql-yoga",
+      "name": "GraphQL Yoga",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "api",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "apollo-server",
+      "name": "Apollo Server",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "api",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "grpc",
+      "name": "gRPC",
+      "languages": [
+        "go",
+        "java",
+        "python",
+        "cpp",
+        "csharp"
+      ],
+      "domain": "api",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "trpc",
+      "name": "tRPC",
+      "languages": [
+        "typescript"
+      ],
+      "domain": "api",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "framework_id": "socketio",
+      "name": "Socket.IO",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "domain": "api",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ]
+}

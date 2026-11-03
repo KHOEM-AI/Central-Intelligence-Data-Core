@@ -30,7 +30,8 @@ function readBody(req) {
     req.on("end", () => { try { ok(s ? JSON.parse(s) : {}); } catch (e) { no(e); } });
   });
 }
-const collections = () => ({ languages: load("languages.json").items, "file-formats": load("file-formats.json").items, templates: load("templates.json").items });
+const REGISTRIES = { languages: "languages.json", "file-formats": "file-formats.json", templates: "templates.json", frameworks: "frameworks.json", databases: "databases.json", protocols: "protocols.json", tools: "tools.json", platforms: "platforms.json" };
+const collections = () => { const o = {}; for (const k of Object.keys(REGISTRIES)) o[k] = fs.existsSync(path.join(DATA, REGISTRIES[k])) ? load(REGISTRIES[k]).items : []; return o; };
 
 http.createServer(async (req, res) => {
   try {
@@ -45,6 +46,8 @@ http.createServer(async (req, res) => {
       if (url === "/api/cidc/languages") return send(req, res, 200, load("languages.json"));
       if (url === "/api/cidc/file-formats") return send(req, res, 200, load("file-formats.json"));
       if (url === "/api/cidc/templates") return send(req, res, 200, load("templates.json"));
+      const regKey = url.slice(10);
+      if (url.startsWith("/api/cidc/") && Object.prototype.hasOwnProperty.call(REGISTRIES, regKey) && fs.existsSync(path.join(DATA, REGISTRIES[regKey]))) return send(req, res, 200, load(REGISTRIES[regKey]));
       if (url === "/api/cidc/version") return send(req, res, 200, { version: VERSION });
       if (url === "/api/cidc/statistics") {
         const c = collections(); const out = {};
@@ -60,7 +63,7 @@ http.createServer(async (req, res) => {
         const idKey = Object.keys(items[0] || {})[0];
         return send(req, res, 200, { item: items.find((i) => i[idKey] === b.id) || null });
       }
-      if (b.query) { const q = String(b.query).toLowerCase(); items = items.filter((i) => [i.name, i.language, i.language_id, i.file_format_id, (i.groups || []).join(" "), (i.extensions || []).join(" "), i.mime_type].filter(Boolean).join(" ").toLowerCase().includes(q)); }
+      if (b.query) { const q = String(b.query).toLowerCase(); items = items.filter((i) => [i.name, i.language, i.language_id, i.file_format_id, (i.groups || []).join(" "), (i.extensions || []).join(" "), i.mime_type, i.framework_id, i.database_id, i.protocol_id, i.tool_id, i.platform_id, i.template_id, i.category, i.domain, i.kind, [].concat(i.type || []).join(" "), (i.languages || []).join(" "), (i.stack || []).join(" ")].filter(Boolean).join(" ").toLowerCase().includes(q)); }
       return send(req, res, 200, { count: items.length, items });
     }
     send(req, res, 404, { error: "not_found" });

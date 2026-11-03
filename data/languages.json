@@ -659,6 +659,861 @@
       "verification_status": "draft",
       "trust_level": "unrated",
       "version": "0.1.0"
+    },
+    {
+      "language_id": "sass",
+      "name": "Sass",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "less",
+      "name": "Less",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "coffeescript",
+      "name": "CoffeeScript",
+      "groups": [
+        "web"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "rescript",
+      "name": "ReScript",
+      "groups": [
+        "web",
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "purescript",
+      "name": "PureScript",
+      "groups": [
+        "web",
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "svg",
+      "name": "SVG",
+      "groups": [
+        "web",
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "vbnet",
+      "name": "Visual Basic .NET",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "pascal",
+      "name": "Pascal",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "crystal",
+      "name": "Crystal",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "raku",
+      "name": "Raku",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "smalltalk",
+      "name": "Smalltalk",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "mojo",
+      "name": "Mojo",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "haxe",
+      "name": "Haxe",
+      "groups": [
+        "general-purpose",
+        "game-graphics"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "vala",
+      "name": "Vala",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "hack",
+      "name": "Hack",
+      "groups": [
+        "general-purpose"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "ada",
+      "name": "Ada",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "odin",
+      "name": "Odin",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "forth",
+      "name": "Forth",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "llvm-ir",
+      "name": "LLVM IR",
+      "groups": [
+        "systems"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "racket",
+      "name": "Racket",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "gleam",
+      "name": "Gleam",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sml",
+      "name": "Standard ML",
+      "groups": [
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "emacs-lisp",
+      "name": "Emacs Lisp",
+      "groups": [
+        "functional",
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "prolog",
+      "name": "Prolog",
+      "groups": [
+        "logic"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "datalog",
+      "name": "Datalog",
+      "groups": [
+        "database",
+        "logic"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "apl",
+      "name": "APL",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "octave",
+      "name": "GNU Octave",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "stata",
+      "name": "Stata",
+      "groups": [
+        "scientific"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "idris",
+      "name": "Idris",
+      "groups": [
+        "functional",
+        "formal-verification"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "agda",
+      "name": "Agda",
+      "groups": [
+        "functional",
+        "formal-verification"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "lean",
+      "name": "Lean",
+      "groups": [
+        "functional",
+        "formal-verification"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "tla-plus",
+      "name": "TLA+",
+      "groups": [
+        "formal-verification"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "dafny",
+      "name": "Dafny",
+      "groups": [
+        "formal-verification"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "qsharp",
+      "name": "Q#",
+      "groups": [
+        "quantum"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "openqasm",
+      "name": "OpenQASM",
+      "groups": [
+        "quantum"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "bluespec",
+      "name": "Bluespec",
+      "groups": [
+        "hardware-description"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cuda",
+      "name": "CUDA C++",
+      "groups": [
+        "gpu-parallel"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "opencl-c",
+      "name": "OpenCL C",
+      "groups": [
+        "gpu-parallel"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "wgsl",
+      "name": "WGSL",
+      "groups": [
+        "game-graphics",
+        "gpu-parallel"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "metal-shading-language",
+      "name": "Metal Shading Language",
+      "groups": [
+        "game-graphics",
+        "gpu-parallel"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cadence",
+      "name": "Cadence (Flow)",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sway",
+      "name": "Sway",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "michelson",
+      "name": "Michelson",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "motoko",
+      "name": "Motoko",
+      "groups": [
+        "smart-contract"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cobol",
+      "name": "COBOL",
+      "groups": [
+        "legacy-enterprise"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "abap",
+      "name": "ABAP",
+      "groups": [
+        "legacy-enterprise"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "apex",
+      "name": "Apex",
+      "groups": [
+        "legacy-enterprise"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "pl1",
+      "name": "PL/I",
+      "groups": [
+        "legacy-enterprise"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "plpgsql",
+      "name": "PL/pgSQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "gremlin",
+      "name": "Gremlin",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cql",
+      "name": "CQL",
+      "groups": [
+        "database"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "xquery",
+      "name": "XQuery",
+      "groups": [
+        "database",
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "jq",
+      "name": "jq",
+      "groups": [
+        "scripting",
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sed",
+      "name": "sed",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "batch",
+      "name": "Windows Batch",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "vbscript",
+      "name": "VBScript",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "applescript",
+      "name": "AppleScript",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "nushell",
+      "name": "Nushell",
+      "groups": [
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "dockerfile",
+      "name": "Dockerfile",
+      "groups": [
+        "infrastructure"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "makefile",
+      "name": "Makefile",
+      "groups": [
+        "infrastructure"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "cmake",
+      "name": "CMake",
+      "groups": [
+        "infrastructure"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "hcl",
+      "name": "HCL",
+      "groups": [
+        "infrastructure"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "nix",
+      "name": "Nix",
+      "groups": [
+        "infrastructure",
+        "functional"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "starlark",
+      "name": "Starlark",
+      "groups": [
+        "infrastructure",
+        "scripting"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "json",
+      "name": "JSON",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "yaml",
+      "name": "YAML",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "toml",
+      "name": "TOML",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "xml",
+      "name": "XML",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "markdown",
+      "name": "Markdown",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "latex",
+      "name": "LaTeX",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "csv",
+      "name": "CSV",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "ini",
+      "name": "INI",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "protobuf",
+      "name": "Protocol Buffers",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "restructuredtext",
+      "name": "reStructuredText",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "asciidoc",
+      "name": "AsciiDoc",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "graphviz-dot",
+      "name": "Graphviz DOT",
+      "groups": [
+        "markup-data"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "arduino",
+      "name": "Arduino (C++ dialect)",
+      "groups": [
+        "iot-embedded"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "micropython",
+      "name": "MicroPython",
+      "groups": [
+        "iot-embedded"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "structured-text",
+      "name": "IEC 61131-3 Structured Text",
+      "groups": [
+        "industrial-plc"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "ladder-diagram",
+      "name": "IEC 61131-3 Ladder Diagram",
+      "groups": [
+        "industrial-plc"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "function-block-diagram",
+      "name": "IEC 61131-3 Function Block Diagram",
+      "groups": [
+        "industrial-plc"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "instruction-list",
+      "name": "IEC 61131-3 Instruction List",
+      "groups": [
+        "industrial-plc"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "sequential-function-chart",
+      "name": "IEC 61131-3 Sequential Function Chart",
+      "groups": [
+        "industrial-plc"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "language_id": "gcode",
+      "name": "G-code",
+      "groups": [
+        "industrial-plc"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
     }
   ]
 }

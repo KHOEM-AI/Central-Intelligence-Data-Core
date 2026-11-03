@@ -1,0 +1,601 @@
+{
+  "registry": "api-protocols",
+  "version": "0.1.0",
+  "note": "Starter list (draft). Add more freely; verify before use.",
+  "items": [
+    {
+      "protocol_id": "rest",
+      "name": "REST",
+      "category": "api-style",
+      "standard": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "graphql-protocol",
+      "name": "GraphQL",
+      "category": "api-style",
+      "standard": "GraphQL specification (spec.graphql.org)",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "grpc-protocol",
+      "name": "gRPC",
+      "category": "api-style",
+      "standard": "grpc.io",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "soap",
+      "name": "SOAP",
+      "category": "api-style",
+      "standard": "W3C SOAP 1.2",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "json-rpc",
+      "name": "JSON-RPC 2.0",
+      "category": "api-style",
+      "standard": "JSON-RPC 2.0 specification",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "odata",
+      "name": "OData",
+      "category": "api-style",
+      "standard": "OASIS OData",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "openapi",
+      "name": "OpenAPI Specification",
+      "category": "api-description",
+      "standard": "OpenAPI Initiative",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "asyncapi",
+      "name": "AsyncAPI",
+      "category": "api-description",
+      "standard": "AsyncAPI Initiative",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "webhooks",
+      "name": "Webhooks",
+      "category": "api-style",
+      "standard": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "http-semantics",
+      "name": "HTTP Semantics",
+      "category": "web",
+      "standard": "RFC 9110",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "http2",
+      "name": "HTTP/2",
+      "category": "web",
+      "standard": "RFC 9113",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "http3",
+      "name": "HTTP/3",
+      "category": "web",
+      "standard": "RFC 9114",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "quic",
+      "name": "QUIC",
+      "category": "transport",
+      "standard": "RFC 9000",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "websocket",
+      "name": "WebSocket",
+      "category": "web",
+      "standard": "RFC 6455",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "server-sent-events",
+      "name": "Server-Sent Events",
+      "category": "web",
+      "standard": "WHATWG HTML Standard",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "webrtc",
+      "name": "WebRTC",
+      "category": "web",
+      "standard": "W3C WebRTC / IETF RTCWEB",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "tcp",
+      "name": "TCP",
+      "category": "transport",
+      "standard": "RFC 9293",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "udp",
+      "name": "UDP",
+      "category": "transport",
+      "standard": "RFC 768",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "tls13",
+      "name": "TLS 1.3",
+      "category": "security",
+      "standard": "RFC 8446",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ipv4",
+      "name": "IPv4",
+      "category": "network",
+      "standard": "RFC 791",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ipv6",
+      "name": "IPv6",
+      "category": "network",
+      "standard": "RFC 8200",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "icmp",
+      "name": "ICMP",
+      "category": "network",
+      "standard": "RFC 792",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "arp",
+      "name": "ARP",
+      "category": "network",
+      "standard": "RFC 826",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "dns",
+      "name": "DNS",
+      "category": "network-service",
+      "standard": "RFC 1035",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "dhcp",
+      "name": "DHCP",
+      "category": "network-service",
+      "standard": "RFC 2131",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ntp",
+      "name": "NTP",
+      "category": "network-service",
+      "standard": "RFC 5905",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "bgp4",
+      "name": "BGP-4",
+      "category": "routing",
+      "standard": "RFC 4271",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ospfv2",
+      "name": "OSPFv2",
+      "category": "routing",
+      "standard": "RFC 2328",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ssh",
+      "name": "SSH",
+      "category": "remote-access",
+      "standard": "RFC 4251",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ftp",
+      "name": "FTP",
+      "category": "file-transfer",
+      "standard": "RFC 959",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "smtp",
+      "name": "SMTP",
+      "category": "email",
+      "standard": "RFC 5321",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "imap",
+      "name": "IMAP4rev2",
+      "category": "email",
+      "standard": "RFC 9051",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "pop3",
+      "name": "POP3",
+      "category": "email",
+      "standard": "RFC 1939",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "ldap",
+      "name": "LDAP",
+      "category": "directory",
+      "standard": "RFC 4511",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "snmp",
+      "name": "SNMP",
+      "category": "network-management",
+      "standard": "RFC 3411",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "syslog",
+      "name": "Syslog",
+      "category": "logging",
+      "standard": "RFC 5424",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "mqtt",
+      "name": "MQTT",
+      "category": "messaging-iot",
+      "standard": "OASIS MQTT",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "amqp",
+      "name": "AMQP 1.0",
+      "category": "messaging",
+      "standard": "OASIS / ISO/IEC 19464",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "coap",
+      "name": "CoAP",
+      "category": "messaging-iot",
+      "standard": "RFC 7252",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "nats",
+      "name": "NATS",
+      "category": "messaging",
+      "standard": "nats.io",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "zeromq",
+      "name": "ZeroMQ",
+      "category": "messaging",
+      "standard": "zeromq.org",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "stomp",
+      "name": "STOMP",
+      "category": "messaging",
+      "standard": "stomp.github.io",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "kafka-protocol",
+      "name": "Kafka protocol",
+      "category": "messaging",
+      "standard": "Apache Kafka",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "oauth2",
+      "name": "OAuth 2.0",
+      "category": "auth",
+      "standard": "RFC 6749",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "openid-connect",
+      "name": "OpenID Connect",
+      "category": "auth",
+      "standard": "OpenID Connect Core 1.0",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "saml2",
+      "name": "SAML 2.0",
+      "category": "auth",
+      "standard": "OASIS SAML 2.0",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "jwt",
+      "name": "JSON Web Token",
+      "category": "auth",
+      "standard": "RFC 7519",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "webauthn",
+      "name": "WebAuthn",
+      "category": "auth",
+      "standard": "W3C WebAuthn",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "totp",
+      "name": "TOTP",
+      "category": "auth",
+      "standard": "RFC 6238",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "kerberos",
+      "name": "Kerberos",
+      "category": "auth",
+      "standard": "RFC 4120",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "radius",
+      "name": "RADIUS",
+      "category": "auth",
+      "standard": "RFC 2865",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "protobuf-format",
+      "name": "Protocol Buffers",
+      "category": "serialization",
+      "standard": "protobuf.dev",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "avro",
+      "name": "Apache Avro",
+      "category": "serialization",
+      "standard": "Apache Avro",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "msgpack",
+      "name": "MessagePack",
+      "category": "serialization",
+      "standard": "msgpack.org",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "cbor",
+      "name": "CBOR",
+      "category": "serialization",
+      "standard": "RFC 8949",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "flatbuffers",
+      "name": "FlatBuffers",
+      "category": "serialization",
+      "standard": "flatbuffers.dev",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "modbus",
+      "name": "Modbus",
+      "category": "industrial-iot",
+      "standard": "modbus.org",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "opc-ua",
+      "name": "OPC UA",
+      "category": "industrial-iot",
+      "standard": "IEC 62541",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "can-bus",
+      "name": "CAN bus",
+      "category": "industrial-iot",
+      "standard": "ISO 11898",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "i2c",
+      "name": "I2C",
+      "category": "embedded-bus",
+      "standard": "NXP I2C-bus specification",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "spi",
+      "name": "SPI",
+      "category": "embedded-bus",
+      "standard": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "uart",
+      "name": "UART",
+      "category": "embedded-bus",
+      "standard": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "bluetooth-le",
+      "name": "Bluetooth Low Energy",
+      "category": "wireless",
+      "standard": "Bluetooth SIG",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "zigbee",
+      "name": "Zigbee",
+      "category": "wireless",
+      "standard": "CSA Zigbee",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "lorawan",
+      "name": "LoRaWAN",
+      "category": "wireless",
+      "standard": "LoRa Alliance",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "protocol_id": "matter",
+      "name": "Matter",
+      "category": "smart-home",
+      "standard": "Connectivity Standards Alliance",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ]
+}

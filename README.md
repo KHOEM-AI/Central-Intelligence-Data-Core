@@ -4,7 +4,7 @@ KHOEM-AI | ស្នូលទិន្នន័យបញ្ញាកណ្ដា
 មជ្ឈមណ្ឌលទិន្នន័យកណ្ដាលរបស់ KHOEM-AI។ មានតែ KHOEM-AI AI/UI ប៉ុណ្ណោះដែលទាញយកទិន្នន័យតាម Gateway។
 
 ## រចនាសម្ព័ន្ធ
-- `data/` : languages, file-formats, templates, modules, schema
+- `data/` : languages, file-formats, templates, frameworks, databases, protocols, tools, platforms, modules, schema
 - `src/server.js` : API Gateway :8800 (read-only, Bearer token)
 - `src/ui.js` + `ui/index.html` : Dashboard :5190
 - `scripts/validate.js` : Data Validation

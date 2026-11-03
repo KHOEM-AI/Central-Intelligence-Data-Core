@@ -1,5 +1,1393 @@
 {
   "registry": "code-templates",
   "version": "0.1.0",
-  "items": []
+  "items": [
+    {
+      "template_id": "web-static",
+      "name": "Static website",
+      "category": "web",
+      "languages": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "index.html",
+        "style.css",
+        "script.js",
+        "README.md"
+      ],
+      "run": "python3 -m http.server 8000",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-react-vite-ts",
+      "name": "React + Vite (TypeScript)",
+      "category": "web",
+      "languages": [
+        "typescript",
+        "javascript"
+      ],
+      "stack": [
+        "react",
+        "vite"
+      ],
+      "scaffold": "npm create vite@latest my-app -- --template react-ts",
+      "files": [
+        "package.json",
+        "index.html",
+        "vite.config.ts",
+        "tsconfig.json",
+        "src/main.tsx",
+        "src/App.tsx"
+      ],
+      "run": "npm run dev",
+      "build": "npm run build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-vue-vite",
+      "name": "Vue + Vite",
+      "category": "web",
+      "languages": [
+        "typescript",
+        "javascript"
+      ],
+      "stack": [
+        "vue",
+        "vite"
+      ],
+      "scaffold": "npm create vue@latest",
+      "files": [
+        "package.json",
+        "index.html",
+        "vite.config.ts",
+        "src/main.ts",
+        "src/App.vue"
+      ],
+      "run": "npm run dev",
+      "build": "npm run build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-nextjs",
+      "name": "Next.js app",
+      "category": "web",
+      "languages": [
+        "typescript",
+        "javascript"
+      ],
+      "stack": [
+        "nextjs",
+        "react"
+      ],
+      "scaffold": "npx create-next-app@latest",
+      "files": [
+        "package.json",
+        "next.config.*",
+        "app/layout.tsx",
+        "app/page.tsx"
+      ],
+      "run": "npm run dev",
+      "build": "npm run build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-angular",
+      "name": "Angular app",
+      "category": "web",
+      "languages": [
+        "typescript"
+      ],
+      "stack": [
+        "angular"
+      ],
+      "scaffold": "ng new my-app",
+      "files": [
+        "angular.json",
+        "package.json",
+        "src/main.ts",
+        "src/app/"
+      ],
+      "run": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-python-flask",
+      "name": "Flask app",
+      "category": "web",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "flask"
+      ],
+      "scaffold": null,
+      "files": [
+        "app.py",
+        "requirements.txt",
+        "templates/index.html",
+        "static/style.css"
+      ],
+      "run": "flask --app app run",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-python-django",
+      "name": "Django project",
+      "category": "web",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "django"
+      ],
+      "scaffold": "django-admin startproject mysite",
+      "files": [
+        "manage.py",
+        "mysite/settings.py",
+        "mysite/urls.py",
+        "requirements.txt"
+      ],
+      "run": "python manage.py runserver",
+      "build": null,
+      "test": "python manage.py test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-php-laravel",
+      "name": "Laravel app",
+      "category": "web",
+      "languages": [
+        "php"
+      ],
+      "stack": [
+        "laravel"
+      ],
+      "scaffold": "composer create-project laravel/laravel my-app",
+      "files": [
+        "artisan",
+        "composer.json",
+        "routes/web.php",
+        "app/",
+        "resources/views/"
+      ],
+      "run": "php artisan serve",
+      "build": null,
+      "test": "php artisan test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "web-ruby-rails",
+      "name": "Ruby on Rails app",
+      "category": "web",
+      "languages": [
+        "ruby"
+      ],
+      "stack": [
+        "rails"
+      ],
+      "scaffold": "rails new my-app",
+      "files": [
+        "Gemfile",
+        "config/routes.rb",
+        "app/controllers/",
+        "app/models/"
+      ],
+      "run": "bin/rails server",
+      "build": null,
+      "test": "bin/rails test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-node-express",
+      "name": "REST API (Node.js + Express)",
+      "category": "api",
+      "languages": [
+        "javascript"
+      ],
+      "stack": [
+        "express"
+      ],
+      "scaffold": "npm init -y && npm install express",
+      "files": [
+        "package.json",
+        "src/server.js",
+        ".env.example",
+        "README.md"
+      ],
+      "run": "node src/server.js",
+      "build": null,
+      "test": "node --test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-nestjs",
+      "name": "REST API (NestJS)",
+      "category": "api",
+      "languages": [
+        "typescript"
+      ],
+      "stack": [
+        "nestjs"
+      ],
+      "scaffold": "npx @nestjs/cli new my-api",
+      "files": [
+        "package.json",
+        "nest-cli.json",
+        "src/main.ts",
+        "src/app.module.ts"
+      ],
+      "run": "npm run start:dev",
+      "build": "npm run build",
+      "test": "npm test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-python-fastapi",
+      "name": "REST API (FastAPI)",
+      "category": "api",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "fastapi"
+      ],
+      "scaffold": null,
+      "files": [
+        "main.py",
+        "requirements.txt",
+        "tests/test_main.py",
+        "README.md"
+      ],
+      "run": "uvicorn main:app --reload",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-java-spring-boot",
+      "name": "Spring Boot API (Maven)",
+      "category": "api",
+      "languages": [
+        "java"
+      ],
+      "stack": [
+        "spring-boot",
+        "maven"
+      ],
+      "scaffold": "Spring Initializr (start.spring.io)",
+      "files": [
+        "pom.xml",
+        "src/main/java/",
+        "src/main/resources/application.properties",
+        "src/test/java/"
+      ],
+      "run": "./mvnw spring-boot:run",
+      "build": "./mvnw package",
+      "test": "./mvnw test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-dotnet-webapi",
+      "name": "ASP.NET Core Web API",
+      "category": "api",
+      "languages": [
+        "csharp"
+      ],
+      "stack": [
+        "aspnet-core"
+      ],
+      "scaffold": "dotnet new webapi -n MyApi",
+      "files": [
+        "MyApi.csproj",
+        "Program.cs",
+        "appsettings.json"
+      ],
+      "run": "dotnet run",
+      "build": "dotnet build",
+      "test": "dotnet test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-go-http",
+      "name": "Go HTTP API",
+      "category": "api",
+      "languages": [
+        "go"
+      ],
+      "stack": [],
+      "scaffold": "go mod init example.com/myapi",
+      "files": [
+        "go.mod",
+        "main.go",
+        "main_test.go"
+      ],
+      "run": "go run .",
+      "build": "go build ./...",
+      "test": "go test ./...",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-rust-axum",
+      "name": "Rust API (Axum)",
+      "category": "api",
+      "languages": [
+        "rust"
+      ],
+      "stack": [
+        "axum"
+      ],
+      "scaffold": "cargo new myapi && cargo add axum tokio",
+      "files": [
+        "Cargo.toml",
+        "src/main.rs"
+      ],
+      "run": "cargo run",
+      "build": "cargo build --release",
+      "test": "cargo test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-elixir-phoenix",
+      "name": "Phoenix app",
+      "category": "api",
+      "languages": [
+        "elixir"
+      ],
+      "stack": [
+        "phoenix"
+      ],
+      "scaffold": "mix phx.new my_app",
+      "files": [
+        "mix.exs",
+        "lib/",
+        "config/config.exs",
+        "test/"
+      ],
+      "run": "mix phx.server",
+      "build": null,
+      "test": "mix test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-graphql-node",
+      "name": "GraphQL API (Node.js)",
+      "category": "api",
+      "languages": [
+        "javascript"
+      ],
+      "stack": [
+        "graphql-yoga"
+      ],
+      "scaffold": "npm init -y && npm install graphql graphql-yoga",
+      "files": [
+        "package.json",
+        "src/schema.js",
+        "src/server.js"
+      ],
+      "run": "node src/server.js",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "api-grpc-go",
+      "name": "gRPC service (Go)",
+      "category": "api",
+      "languages": [
+        "go"
+      ],
+      "stack": [
+        "grpc"
+      ],
+      "scaffold": "go mod init example.com/svc",
+      "files": [
+        "proto/service.proto",
+        "go.mod",
+        "server/main.go",
+        "client/main.go"
+      ],
+      "run": "go run ./server",
+      "build": "go build ./...",
+      "test": "go test ./...",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "mobile-flutter",
+      "name": "Flutter app",
+      "category": "mobile",
+      "languages": [
+        "dart"
+      ],
+      "stack": [
+        "flutter"
+      ],
+      "scaffold": "flutter create my_app",
+      "files": [
+        "pubspec.yaml",
+        "lib/main.dart",
+        "test/widget_test.dart",
+        "android/",
+        "ios/"
+      ],
+      "run": "flutter run",
+      "build": "flutter build apk",
+      "test": "flutter test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "mobile-react-native-expo",
+      "name": "React Native (Expo)",
+      "category": "mobile",
+      "languages": [
+        "typescript",
+        "javascript"
+      ],
+      "stack": [
+        "react-native",
+        "expo"
+      ],
+      "scaffold": "npx create-expo-app@latest",
+      "files": [
+        "package.json",
+        "app.json",
+        "app/"
+      ],
+      "run": "npx expo start",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "mobile-android-compose",
+      "name": "Android (Kotlin + Compose)",
+      "category": "mobile",
+      "languages": [
+        "kotlin"
+      ],
+      "stack": [
+        "jetpack-compose",
+        "gradle"
+      ],
+      "scaffold": "Android Studio: New Project wizard",
+      "files": [
+        "settings.gradle.kts",
+        "build.gradle.kts",
+        "app/build.gradle.kts",
+        "app/src/main/AndroidManifest.xml",
+        "app/src/main/java/"
+      ],
+      "run": "./gradlew installDebug",
+      "build": "./gradlew assembleDebug",
+      "test": "./gradlew test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "mobile-ios-swiftui",
+      "name": "iOS (SwiftUI)",
+      "category": "mobile",
+      "languages": [
+        "swift"
+      ],
+      "stack": [
+        "swiftui"
+      ],
+      "scaffold": "Xcode: New Project wizard (macOS only)",
+      "files": [
+        "*.xcodeproj",
+        "App.swift",
+        "ContentView.swift"
+      ],
+      "run": null,
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "desktop-electron",
+      "name": "Electron app",
+      "category": "desktop",
+      "languages": [
+        "javascript"
+      ],
+      "stack": [
+        "electron"
+      ],
+      "scaffold": "npm init -y && npm install --save-dev electron",
+      "files": [
+        "package.json",
+        "main.js",
+        "preload.js",
+        "index.html"
+      ],
+      "run": "npx electron .",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "desktop-tauri",
+      "name": "Tauri app",
+      "category": "desktop",
+      "languages": [
+        "rust",
+        "typescript"
+      ],
+      "stack": [
+        "tauri"
+      ],
+      "scaffold": "npm create tauri-app@latest",
+      "files": [
+        "package.json",
+        "src-tauri/Cargo.toml",
+        "src-tauri/tauri.conf.json",
+        "src-tauri/src/main.rs"
+      ],
+      "run": "npm run tauri dev",
+      "build": "npm run tauri build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "desktop-python-tkinter",
+      "name": "Tkinter app",
+      "category": "desktop",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "tkinter"
+      ],
+      "scaffold": null,
+      "files": [
+        "main.py",
+        "requirements.txt"
+      ],
+      "run": "python main.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "desktop-dotnet-wpf",
+      "name": "WPF app (Windows)",
+      "category": "desktop",
+      "languages": [
+        "csharp"
+      ],
+      "stack": [
+        "wpf"
+      ],
+      "scaffold": "dotnet new wpf -n MyApp",
+      "files": [
+        "MyApp.csproj",
+        "App.xaml",
+        "MainWindow.xaml",
+        "MainWindow.xaml.cs"
+      ],
+      "run": "dotnet run",
+      "build": "dotnet build",
+      "test": "dotnet test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "desktop-qt-cmake",
+      "name": "Qt app (CMake)",
+      "category": "desktop",
+      "languages": [
+        "cpp"
+      ],
+      "stack": [
+        "qt",
+        "cmake-tool"
+      ],
+      "scaffold": null,
+      "files": [
+        "CMakeLists.txt",
+        "main.cpp",
+        "mainwindow.cpp",
+        "mainwindow.h"
+      ],
+      "run": "./build/myapp",
+      "build": "cmake -B build && cmake --build build",
+      "test": "ctest --test-dir build",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "cli-python",
+      "name": "CLI tool (Python)",
+      "category": "cli",
+      "languages": [
+        "python"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "pyproject.toml",
+        "src/mycli/__init__.py",
+        "src/mycli/cli.py",
+        "tests/test_cli.py"
+      ],
+      "run": "python -m mycli",
+      "build": "python -m build",
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "cli-go",
+      "name": "CLI tool (Go)",
+      "category": "cli",
+      "languages": [
+        "go"
+      ],
+      "stack": [],
+      "scaffold": "go mod init example.com/mycli",
+      "files": [
+        "go.mod",
+        "main.go"
+      ],
+      "run": "go run .",
+      "build": "go build -o mycli",
+      "test": "go test ./...",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "cli-rust",
+      "name": "CLI tool (Rust)",
+      "category": "cli",
+      "languages": [
+        "rust"
+      ],
+      "stack": [],
+      "scaffold": "cargo new mycli",
+      "files": [
+        "Cargo.toml",
+        "src/main.rs"
+      ],
+      "run": "cargo run",
+      "build": "cargo build --release",
+      "test": "cargo test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "lib-npm-typescript",
+      "name": "npm library (TypeScript)",
+      "category": "library",
+      "languages": [
+        "typescript"
+      ],
+      "stack": [],
+      "scaffold": "npm init -y",
+      "files": [
+        "package.json",
+        "tsconfig.json",
+        "src/index.ts",
+        "README.md"
+      ],
+      "run": null,
+      "build": "npm run build",
+      "test": "npm test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "lib-python-package",
+      "name": "Python package",
+      "category": "library",
+      "languages": [
+        "python"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "pyproject.toml",
+        "src/mypkg/__init__.py",
+        "tests/test_basic.py",
+        "README.md"
+      ],
+      "run": null,
+      "build": "python -m build",
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "ai-pytorch-training",
+      "name": "PyTorch training project",
+      "category": "ai-ml",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "pytorch"
+      ],
+      "scaffold": null,
+      "files": [
+        "requirements.txt",
+        "train.py",
+        "model.py",
+        "dataset.py",
+        "config.yaml",
+        "tests/"
+      ],
+      "run": "python train.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "ai-sklearn-pipeline",
+      "name": "scikit-learn pipeline",
+      "category": "ai-ml",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "scikit-learn",
+        "pandas"
+      ],
+      "scaffold": null,
+      "files": [
+        "requirements.txt",
+        "pipeline.py",
+        "data/README.md",
+        "tests/"
+      ],
+      "run": "python pipeline.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "ai-rag-service",
+      "name": "RAG service (Python)",
+      "category": "ai-ml",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "fastapi",
+        "langchain"
+      ],
+      "scaffold": null,
+      "files": [
+        "main.py",
+        "ingest.py",
+        "requirements.txt",
+        ".env.example",
+        "tests/"
+      ],
+      "run": "uvicorn main:app --reload",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "data-etl-pandas",
+      "name": "ETL job (pandas)",
+      "category": "data",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "pandas"
+      ],
+      "scaffold": null,
+      "files": [
+        "etl.py",
+        "requirements.txt",
+        "data/",
+        "tests/"
+      ],
+      "run": "python etl.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "iot-arduino",
+      "name": "Arduino sketch",
+      "category": "iot",
+      "languages": [
+        "arduino"
+      ],
+      "stack": [
+        "arduino-core"
+      ],
+      "scaffold": "arduino-cli sketch new MySketch",
+      "files": [
+        "MySketch/MySketch.ino"
+      ],
+      "run": null,
+      "build": "arduino-cli compile --fqbn <board> MySketch",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "iot-esp32-esp-idf",
+      "name": "ESP32 (ESP-IDF)",
+      "category": "iot",
+      "languages": [
+        "c"
+      ],
+      "stack": [
+        "esp-idf"
+      ],
+      "scaffold": "idf.py create-project my_app",
+      "files": [
+        "CMakeLists.txt",
+        "main/CMakeLists.txt",
+        "main/main.c"
+      ],
+      "run": "idf.py flash monitor",
+      "build": "idf.py build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "iot-micropython",
+      "name": "MicroPython device script",
+      "category": "iot",
+      "languages": [
+        "micropython"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "main.py",
+        "boot.py"
+      ],
+      "run": "mpremote run main.py",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "iot-raspberry-pi-python",
+      "name": "Raspberry Pi (Python)",
+      "category": "iot",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "raspberry-pi"
+      ],
+      "scaffold": null,
+      "files": [
+        "main.py",
+        "requirements.txt",
+        "systemd/app.service"
+      ],
+      "run": "python3 main.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "plc-structured-text",
+      "name": "PLC program (Structured Text)",
+      "category": "industrial",
+      "languages": [
+        "structured-text"
+      ],
+      "stack": [
+        "plc"
+      ],
+      "scaffold": "Vendor IDE (project format is vendor-specific)",
+      "files": [
+        "program.st",
+        "README.md"
+      ],
+      "run": null,
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "game-godot",
+      "name": "Godot project",
+      "category": "game",
+      "languages": [
+        "gdscript"
+      ],
+      "stack": [
+        "godot"
+      ],
+      "scaffold": "Godot Editor: New Project",
+      "files": [
+        "project.godot",
+        "scenes/main.tscn",
+        "scripts/main.gd"
+      ],
+      "run": "godot --path .",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "game-unity-csharp",
+      "name": "Unity project",
+      "category": "game",
+      "languages": [
+        "csharp"
+      ],
+      "stack": [
+        "unity"
+      ],
+      "scaffold": "Unity Hub: New project",
+      "files": [
+        "Assets/Scripts/",
+        "ProjectSettings/",
+        "Packages/manifest.json"
+      ],
+      "run": null,
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "game-pygame",
+      "name": "Pygame game",
+      "category": "game",
+      "languages": [
+        "python"
+      ],
+      "stack": [
+        "pygame"
+      ],
+      "scaffold": null,
+      "files": [
+        "main.py",
+        "requirements.txt",
+        "assets/"
+      ],
+      "run": "python main.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "game-phaser-vite",
+      "name": "Phaser web game",
+      "category": "game",
+      "languages": [
+        "javascript"
+      ],
+      "stack": [
+        "phaser",
+        "vite"
+      ],
+      "scaffold": "npm create vite@latest then npm install phaser",
+      "files": [
+        "package.json",
+        "index.html",
+        "src/main.js",
+        "public/assets/"
+      ],
+      "run": "npm run dev",
+      "build": "npm run build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "contract-hardhat",
+      "name": "Smart contract (Hardhat)",
+      "category": "blockchain",
+      "languages": [
+        "solidity",
+        "javascript"
+      ],
+      "stack": [
+        "hardhat"
+      ],
+      "scaffold": "npx hardhat init",
+      "files": [
+        "hardhat.config.*",
+        "contracts/",
+        "test/",
+        "scripts/"
+      ],
+      "run": "npx hardhat node",
+      "build": "npx hardhat compile",
+      "test": "npx hardhat test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "contract-foundry",
+      "name": "Smart contract (Foundry)",
+      "category": "blockchain",
+      "languages": [
+        "solidity"
+      ],
+      "stack": [
+        "foundry"
+      ],
+      "scaffold": "forge init my_project",
+      "files": [
+        "foundry.toml",
+        "src/",
+        "test/",
+        "script/"
+      ],
+      "run": null,
+      "build": "forge build",
+      "test": "forge test",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "db-postgres-migrations",
+      "name": "PostgreSQL schema + migrations",
+      "category": "database",
+      "languages": [
+        "sql"
+      ],
+      "stack": [
+        "postgresql",
+        "flyway"
+      ],
+      "scaffold": null,
+      "files": [
+        "migrations/V1__init.sql",
+        "docker-compose.yml",
+        "README.md"
+      ],
+      "run": "docker compose up -d",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "db-sqlite-schema",
+      "name": "SQLite schema",
+      "category": "database",
+      "languages": [
+        "sql"
+      ],
+      "stack": [
+        "sqlite"
+      ],
+      "scaffold": null,
+      "files": [
+        "schema.sql",
+        "seed.sql",
+        "README.md"
+      ],
+      "run": "sqlite3 app.db < schema.sql",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "devops-docker-compose",
+      "name": "Docker Compose stack",
+      "category": "devops",
+      "languages": [
+        "dockerfile",
+        "yaml"
+      ],
+      "stack": [
+        "docker",
+        "docker-compose"
+      ],
+      "scaffold": null,
+      "files": [
+        "Dockerfile",
+        "docker-compose.yml",
+        ".dockerignore",
+        ".env.example"
+      ],
+      "run": "docker compose up -d",
+      "build": "docker compose build",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "devops-github-actions-ci",
+      "name": "GitHub Actions CI",
+      "category": "devops",
+      "languages": [
+        "yaml"
+      ],
+      "stack": [
+        "github-actions"
+      ],
+      "scaffold": null,
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "run": null,
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "devops-terraform",
+      "name": "Terraform project",
+      "category": "devops",
+      "languages": [
+        "hcl"
+      ],
+      "stack": [
+        "terraform"
+      ],
+      "scaffold": null,
+      "files": [
+        "main.tf",
+        "variables.tf",
+        "outputs.tf",
+        "versions.tf"
+      ],
+      "run": "terraform plan",
+      "build": "terraform validate",
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "devops-kubernetes-manifests",
+      "name": "Kubernetes manifests",
+      "category": "devops",
+      "languages": [
+        "yaml"
+      ],
+      "stack": [
+        "kubernetes"
+      ],
+      "scaffold": null,
+      "files": [
+        "k8s/deployment.yaml",
+        "k8s/service.yaml",
+        "k8s/ingress.yaml"
+      ],
+      "run": "kubectl apply -f k8s/",
+      "build": null,
+      "test": "kubectl apply --dry-run=client -f k8s/",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "automation-bash",
+      "name": "Bash automation script",
+      "category": "automation",
+      "languages": [
+        "bash"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "script.sh",
+        "README.md"
+      ],
+      "run": "bash script.sh",
+      "build": null,
+      "test": "shellcheck script.sh",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "automation-powershell",
+      "name": "PowerShell automation script",
+      "category": "automation",
+      "languages": [
+        "powershell"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "script.ps1",
+        "README.md"
+      ],
+      "run": "pwsh ./script.ps1",
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "automation-python-job",
+      "name": "Python scheduled job",
+      "category": "automation",
+      "languages": [
+        "python"
+      ],
+      "stack": [],
+      "scaffold": null,
+      "files": [
+        "job.py",
+        "requirements.txt",
+        "crontab.example"
+      ],
+      "run": "python job.py",
+      "build": null,
+      "test": "pytest",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "automation-termux-shell",
+      "name": "Termux shell project",
+      "category": "automation",
+      "languages": [
+        "bash"
+      ],
+      "stack": [
+        "termux"
+      ],
+      "scaffold": null,
+      "files": [
+        "install.sh",
+        "main.sh",
+        "README.md"
+      ],
+      "run": "bash main.sh",
+      "build": null,
+      "test": "shellcheck main.sh",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "template_id": "security-scan-ci",
+      "name": "Security scan CI (Semgrep + Trivy)",
+      "category": "security",
+      "languages": [
+        "yaml"
+      ],
+      "stack": [
+        "semgrep",
+        "trivy",
+        "github-actions"
+      ],
+      "scaffold": null,
+      "files": [
+        ".github/workflows/security.yml"
+      ],
+      "run": null,
+      "build": null,
+      "test": null,
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ],
+  "note": "Descriptors only (structure + commands). No source code bundled. Commands are unverified (draft) until a human runs them."
 }

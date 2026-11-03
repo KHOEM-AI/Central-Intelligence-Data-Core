@@ -1,0 +1,2000 @@
+{
+  "registry": "development-tools",
+  "version": "0.1.0",
+  "note": "Starter list (draft). Add more freely; verify before use.",
+  "items": [
+    {
+      "tool_id": "gcc",
+      "name": "GCC",
+      "kind": "compiler",
+      "languages": [
+        "c",
+        "cpp",
+        "fortran",
+        "ada",
+        "d"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "clang",
+      "name": "Clang / LLVM",
+      "kind": "compiler",
+      "languages": [
+        "c",
+        "cpp",
+        "objective-c",
+        "cuda"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "msvc",
+      "name": "MSVC",
+      "kind": "compiler",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "rustc",
+      "name": "rustc",
+      "kind": "compiler",
+      "languages": [
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "go-toolchain",
+      "name": "Go toolchain",
+      "kind": "compiler",
+      "languages": [
+        "go"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "javac",
+      "name": "javac (OpenJDK)",
+      "kind": "compiler",
+      "languages": [
+        "java"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "kotlinc",
+      "name": "kotlinc",
+      "kind": "compiler",
+      "languages": [
+        "kotlin"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "scalac",
+      "name": "scalac",
+      "kind": "compiler",
+      "languages": [
+        "scala"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "ghc",
+      "name": "GHC",
+      "kind": "compiler",
+      "languages": [
+        "haskell"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "dotnet-sdk",
+      "name": ".NET SDK",
+      "kind": "compiler",
+      "languages": [
+        "csharp",
+        "fsharp",
+        "vbnet"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "swift-toolchain",
+      "name": "Swift toolchain",
+      "kind": "compiler",
+      "languages": [
+        "swift"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "zig-toolchain",
+      "name": "Zig toolchain",
+      "kind": "compiler",
+      "languages": [
+        "zig",
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "nasm",
+      "name": "NASM",
+      "kind": "compiler",
+      "languages": [
+        "assembly"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "tsc",
+      "name": "TypeScript compiler",
+      "kind": "compiler",
+      "languages": [
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "emscripten",
+      "name": "Emscripten",
+      "kind": "compiler",
+      "languages": [
+        "c",
+        "cpp",
+        "webassembly-text-format"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "solc",
+      "name": "solc",
+      "kind": "compiler",
+      "languages": [
+        "solidity"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cpython",
+      "name": "CPython",
+      "kind": "interpreter",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pypy",
+      "name": "PyPy",
+      "kind": "interpreter",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "nodejs",
+      "name": "Node.js",
+      "kind": "runtime",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "deno",
+      "name": "Deno",
+      "kind": "runtime",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "bun",
+      "name": "Bun",
+      "kind": "runtime",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "jvm",
+      "name": "JVM (OpenJDK)",
+      "kind": "runtime",
+      "languages": [
+        "java",
+        "kotlin",
+        "scala",
+        "groovy",
+        "clojure"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "ruby-mri",
+      "name": "Ruby (MRI)",
+      "kind": "interpreter",
+      "languages": [
+        "ruby"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "php-cli",
+      "name": "PHP CLI",
+      "kind": "interpreter",
+      "languages": [
+        "php"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "lua-interpreter",
+      "name": "Lua",
+      "kind": "interpreter",
+      "languages": [
+        "lua"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "luajit",
+      "name": "LuaJIT",
+      "kind": "interpreter",
+      "languages": [
+        "lua"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "julia-runtime",
+      "name": "Julia",
+      "kind": "runtime",
+      "languages": [
+        "julia"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "r-base",
+      "name": "R",
+      "kind": "interpreter",
+      "languages": [
+        "r"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "dart-sdk",
+      "name": "Dart SDK",
+      "kind": "runtime",
+      "languages": [
+        "dart"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "wasmtime",
+      "name": "Wasmtime",
+      "kind": "runtime",
+      "languages": [
+        "webassembly-text-format"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "beam",
+      "name": "BEAM (Erlang VM)",
+      "kind": "runtime",
+      "languages": [
+        "erlang",
+        "elixir",
+        "gleam"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "npm",
+      "name": "npm",
+      "kind": "package-manager",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "yarn",
+      "name": "Yarn",
+      "kind": "package-manager",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pnpm",
+      "name": "pnpm",
+      "kind": "package-manager",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pip",
+      "name": "pip",
+      "kind": "package-manager",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "uv",
+      "name": "uv",
+      "kind": "package-manager",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "poetry",
+      "name": "Poetry",
+      "kind": "package-manager",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "conda",
+      "name": "conda",
+      "kind": "package-manager",
+      "languages": [
+        "python",
+        "r"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cargo",
+      "name": "Cargo",
+      "kind": "package-manager",
+      "languages": [
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "go-modules",
+      "name": "Go modules",
+      "kind": "package-manager",
+      "languages": [
+        "go"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "maven",
+      "name": "Maven",
+      "kind": "build-tool",
+      "languages": [
+        "java",
+        "kotlin",
+        "scala"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "gradle",
+      "name": "Gradle",
+      "kind": "build-tool",
+      "languages": [
+        "java",
+        "kotlin",
+        "groovy"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "sbt",
+      "name": "sbt",
+      "kind": "build-tool",
+      "languages": [
+        "scala"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "nuget",
+      "name": "NuGet",
+      "kind": "package-manager",
+      "languages": [
+        "csharp",
+        "fsharp",
+        "vbnet"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "composer",
+      "name": "Composer",
+      "kind": "package-manager",
+      "languages": [
+        "php"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "bundler",
+      "name": "Bundler",
+      "kind": "package-manager",
+      "languages": [
+        "ruby"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cocoapods",
+      "name": "CocoaPods",
+      "kind": "package-manager",
+      "languages": [
+        "swift",
+        "objective-c"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "swiftpm",
+      "name": "Swift Package Manager",
+      "kind": "package-manager",
+      "languages": [
+        "swift"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pub",
+      "name": "pub",
+      "kind": "package-manager",
+      "languages": [
+        "dart"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "hex",
+      "name": "Hex",
+      "kind": "package-manager",
+      "languages": [
+        "elixir",
+        "erlang",
+        "gleam"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cabal",
+      "name": "Cabal",
+      "kind": "build-tool",
+      "languages": [
+        "haskell"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "luarocks",
+      "name": "LuaRocks",
+      "kind": "package-manager",
+      "languages": [
+        "lua"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "vcpkg",
+      "name": "vcpkg",
+      "kind": "package-manager",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "conan",
+      "name": "Conan",
+      "kind": "package-manager",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "apt",
+      "name": "APT",
+      "kind": "package-manager",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "homebrew",
+      "name": "Homebrew",
+      "kind": "package-manager",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "termux-pkg",
+      "name": "Termux pkg",
+      "kind": "package-manager",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "make",
+      "name": "GNU Make",
+      "kind": "build-tool",
+      "languages": [
+        "c",
+        "cpp",
+        "makefile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cmake-tool",
+      "name": "CMake",
+      "kind": "build-tool",
+      "languages": [
+        "c",
+        "cpp",
+        "cmake"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "ninja",
+      "name": "Ninja",
+      "kind": "build-tool",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "bazel",
+      "name": "Bazel",
+      "kind": "build-tool",
+      "languages": [
+        "starlark"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "meson",
+      "name": "Meson",
+      "kind": "build-tool",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "msbuild",
+      "name": "MSBuild",
+      "kind": "build-tool",
+      "languages": [
+        "csharp",
+        "fsharp",
+        "vbnet"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "webpack",
+      "name": "webpack",
+      "kind": "build-tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "vite",
+      "name": "Vite",
+      "kind": "build-tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "esbuild",
+      "name": "esbuild",
+      "kind": "build-tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "rollup",
+      "name": "Rollup",
+      "kind": "build-tool",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "babel",
+      "name": "Babel",
+      "kind": "compiler",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "eslint",
+      "name": "ESLint",
+      "kind": "linter",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "prettier",
+      "name": "Prettier",
+      "kind": "formatter",
+      "languages": [
+        "javascript",
+        "typescript",
+        "css",
+        "json",
+        "yaml",
+        "markdown"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "stylelint",
+      "name": "stylelint",
+      "kind": "linter",
+      "languages": [
+        "css",
+        "sass",
+        "less"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "black",
+      "name": "Black",
+      "kind": "formatter",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "ruff",
+      "name": "Ruff",
+      "kind": "linter",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pylint",
+      "name": "Pylint",
+      "kind": "linter",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "flake8",
+      "name": "Flake8",
+      "kind": "linter",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "mypy",
+      "name": "mypy",
+      "kind": "static-analysis",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pyright",
+      "name": "Pyright",
+      "kind": "static-analysis",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "rubocop",
+      "name": "RuboCop",
+      "kind": "linter",
+      "languages": [
+        "ruby"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "clippy",
+      "name": "Clippy",
+      "kind": "linter",
+      "languages": [
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "rustfmt",
+      "name": "rustfmt",
+      "kind": "formatter",
+      "languages": [
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "gofmt",
+      "name": "gofmt",
+      "kind": "formatter",
+      "languages": [
+        "go"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "golangci-lint",
+      "name": "golangci-lint",
+      "kind": "linter",
+      "languages": [
+        "go"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "shellcheck",
+      "name": "ShellCheck",
+      "kind": "linter",
+      "languages": [
+        "bash"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "shfmt",
+      "name": "shfmt",
+      "kind": "formatter",
+      "languages": [
+        "bash"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "sqlfluff",
+      "name": "SQLFluff",
+      "kind": "linter",
+      "languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "checkstyle",
+      "name": "Checkstyle",
+      "kind": "linter",
+      "languages": [
+        "java"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "detekt",
+      "name": "detekt",
+      "kind": "linter",
+      "languages": [
+        "kotlin"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "ktlint",
+      "name": "ktlint",
+      "kind": "linter",
+      "languages": [
+        "kotlin"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "swiftlint",
+      "name": "SwiftLint",
+      "kind": "linter",
+      "languages": [
+        "swift"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "phpstan",
+      "name": "PHPStan",
+      "kind": "static-analysis",
+      "languages": [
+        "php"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "psalm",
+      "name": "Psalm",
+      "kind": "static-analysis",
+      "languages": [
+        "php"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "clang-format",
+      "name": "clang-format",
+      "kind": "formatter",
+      "languages": [
+        "c",
+        "cpp",
+        "objective-c",
+        "cuda"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "clang-tidy",
+      "name": "clang-tidy",
+      "kind": "linter",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cppcheck",
+      "name": "Cppcheck",
+      "kind": "static-analysis",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "hadolint",
+      "name": "Hadolint",
+      "kind": "linter",
+      "languages": [
+        "dockerfile"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "yamllint",
+      "name": "yamllint",
+      "kind": "linter",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "markdownlint",
+      "name": "markdownlint",
+      "kind": "linter",
+      "languages": [
+        "markdown"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "tflint",
+      "name": "TFLint",
+      "kind": "linter",
+      "languages": [
+        "hcl"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "gdb",
+      "name": "GDB",
+      "kind": "debugger",
+      "languages": [
+        "c",
+        "cpp",
+        "rust",
+        "go"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "lldb",
+      "name": "LLDB",
+      "kind": "debugger",
+      "languages": [
+        "c",
+        "cpp",
+        "swift",
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "valgrind",
+      "name": "Valgrind",
+      "kind": "profiler",
+      "languages": [
+        "c",
+        "cpp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pdb",
+      "name": "pdb",
+      "kind": "debugger",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "strace",
+      "name": "strace",
+      "kind": "debugger",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "semgrep",
+      "name": "Semgrep",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "bandit",
+      "name": "Bandit",
+      "kind": "security-scanner",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "trivy",
+      "name": "Trivy",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "grype",
+      "name": "Grype",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "owasp-dependency-check",
+      "name": "OWASP Dependency-Check",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "npm-audit",
+      "name": "npm audit",
+      "kind": "security-scanner",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pip-audit",
+      "name": "pip-audit",
+      "kind": "security-scanner",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "cargo-audit",
+      "name": "cargo-audit",
+      "kind": "security-scanner",
+      "languages": [
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "gitleaks",
+      "name": "Gitleaks",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "trufflehog",
+      "name": "TruffleHog",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "codeql",
+      "name": "CodeQL",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "sonarqube",
+      "name": "SonarQube",
+      "kind": "static-analysis",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "owasp-zap",
+      "name": "OWASP ZAP",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "nmap",
+      "name": "Nmap",
+      "kind": "network-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "wireshark",
+      "name": "Wireshark",
+      "kind": "network-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "clamav",
+      "name": "ClamAV",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "yara",
+      "name": "YARA",
+      "kind": "security-scanner",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "hashicorp-vault",
+      "name": "HashiCorp Vault",
+      "kind": "secrets-management",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "sops",
+      "name": "SOPS",
+      "kind": "secrets-management",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "docker",
+      "name": "Docker",
+      "kind": "container",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "podman",
+      "name": "Podman",
+      "kind": "container",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "docker-compose",
+      "name": "Docker Compose",
+      "kind": "container",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "kubernetes",
+      "name": "Kubernetes",
+      "kind": "orchestration",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "helm",
+      "name": "Helm",
+      "kind": "orchestration",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "terraform",
+      "name": "Terraform",
+      "kind": "iac",
+      "languages": [
+        "hcl"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "opentofu",
+      "name": "OpenTofu",
+      "kind": "iac",
+      "languages": [
+        "hcl"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "ansible",
+      "name": "Ansible",
+      "kind": "iac",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "pulumi",
+      "name": "Pulumi",
+      "kind": "iac",
+      "languages": [
+        "typescript",
+        "python",
+        "go",
+        "csharp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "packer",
+      "name": "Packer",
+      "kind": "iac",
+      "languages": [
+        "hcl"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "github-actions",
+      "name": "GitHub Actions",
+      "kind": "ci-cd",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "gitlab-ci",
+      "name": "GitLab CI/CD",
+      "kind": "ci-cd",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "jenkins",
+      "name": "Jenkins",
+      "kind": "ci-cd",
+      "languages": [
+        "groovy"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "argo-cd",
+      "name": "Argo CD",
+      "kind": "ci-cd",
+      "languages": [
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "nginx",
+      "name": "NGINX",
+      "kind": "web-server",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "apache-httpd",
+      "name": "Apache HTTP Server",
+      "kind": "web-server",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "caddy",
+      "name": "Caddy",
+      "kind": "web-server",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "traefik",
+      "name": "Traefik",
+      "kind": "web-server",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "haproxy",
+      "name": "HAProxy",
+      "kind": "web-server",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "prometheus",
+      "name": "Prometheus",
+      "kind": "observability",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "grafana",
+      "name": "Grafana",
+      "kind": "observability",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "loki",
+      "name": "Grafana Loki",
+      "kind": "observability",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "opentelemetry",
+      "name": "OpenTelemetry",
+      "kind": "observability",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "sentry",
+      "name": "Sentry",
+      "kind": "observability",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "jaeger",
+      "name": "Jaeger",
+      "kind": "observability",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "git",
+      "name": "Git",
+      "kind": "vcs",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "github-cli",
+      "name": "GitHub CLI (gh)",
+      "kind": "vcs",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "mercurial",
+      "name": "Mercurial",
+      "kind": "vcs",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "subversion",
+      "name": "Apache Subversion",
+      "kind": "vcs",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "doxygen",
+      "name": "Doxygen",
+      "kind": "docs-generator",
+      "languages": [
+        "c",
+        "cpp",
+        "java",
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "sphinx",
+      "name": "Sphinx",
+      "kind": "docs-generator",
+      "languages": [
+        "python",
+        "restructuredtext"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "javadoc",
+      "name": "Javadoc",
+      "kind": "docs-generator",
+      "languages": [
+        "java"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "typedoc",
+      "name": "TypeDoc",
+      "kind": "docs-generator",
+      "languages": [
+        "typescript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "rustdoc",
+      "name": "rustdoc",
+      "kind": "docs-generator",
+      "languages": [
+        "rust"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "mkdocs",
+      "name": "MkDocs",
+      "kind": "docs-generator",
+      "languages": [
+        "markdown"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "docusaurus",
+      "name": "Docusaurus",
+      "kind": "docs-generator",
+      "languages": [
+        "javascript",
+        "typescript",
+        "markdown"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "jsdoc",
+      "name": "JSDoc",
+      "kind": "docs-generator",
+      "languages": [
+        "javascript"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "flyway",
+      "name": "Flyway",
+      "kind": "db-migration",
+      "languages": [
+        "sql"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "liquibase",
+      "name": "Liquibase",
+      "kind": "db-migration",
+      "languages": [
+        "sql",
+        "xml",
+        "yaml"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "alembic",
+      "name": "Alembic",
+      "kind": "db-migration",
+      "languages": [
+        "python"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "postman",
+      "name": "Postman",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "curl",
+      "name": "curl",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "httpie",
+      "name": "HTTPie",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "insomnia",
+      "name": "Insomnia",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "swagger-ui",
+      "name": "Swagger UI",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "openapi-generator",
+      "name": "OpenAPI Generator",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "grpcurl",
+      "name": "grpcurl",
+      "kind": "api-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "fastlane",
+      "name": "fastlane",
+      "kind": "mobile-tool",
+      "languages": [
+        "swift",
+        "kotlin",
+        "java",
+        "ruby"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "adb",
+      "name": "Android Debug Bridge (adb)",
+      "kind": "mobile-tool",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "vscode",
+      "name": "Visual Studio Code",
+      "kind": "editor-ide",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "neovim",
+      "name": "Neovim",
+      "kind": "editor-ide",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "vim",
+      "name": "Vim",
+      "kind": "editor-ide",
+      "languages": [],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "emacs",
+      "name": "Emacs",
+      "kind": "editor-ide",
+      "languages": [
+        "emacs-lisp"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "intellij-idea",
+      "name": "IntelliJ IDEA",
+      "kind": "editor-ide",
+      "languages": [
+        "java",
+        "kotlin",
+        "scala",
+        "groovy"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "android-studio",
+      "name": "Android Studio",
+      "kind": "editor-ide",
+      "languages": [
+        "kotlin",
+        "java"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "xcode",
+      "name": "Xcode",
+      "kind": "editor-ide",
+      "languages": [
+        "swift",
+        "objective-c"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "visual-studio",
+      "name": "Visual Studio",
+      "kind": "editor-ide",
+      "languages": [
+        "csharp",
+        "cpp",
+        "fsharp",
+        "vbnet"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "eclipse",
+      "name": "Eclipse IDE",
+      "kind": "editor-ide",
+      "languages": [
+        "java"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "tool_id": "jupyter",
+      "name": "Jupyter",
+      "kind": "editor-ide",
+      "languages": [
+        "python",
+        "r",
+        "julia"
+      ],
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ]
+}

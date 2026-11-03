@@ -2,55 +2,96 @@
   "items": [
     {
       "name": "Programming Languages Data",
-      "status": "started"
+      "status": "started",
+      "registries": [
+        "languages"
+      ]
     },
     {
       "name": "Code File Formats Data",
-      "status": "started"
+      "status": "started",
+      "registries": [
+        "file-formats"
+      ]
     },
     {
       "name": "Code Templates Data",
-      "status": "started"
+      "status": "started",
+      "registries": [
+        "templates"
+      ]
     },
     {
       "name": "Software Development Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "tools",
+        "templates"
+      ]
     },
     {
       "name": "Web Development Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "frameworks"
+      ]
     },
     {
       "name": "Mobile Development Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "frameworks",
+        "platforms"
+      ]
     },
     {
       "name": "Database & SQL Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "databases"
+      ]
     },
     {
       "name": "API & Protocol Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "protocols"
+      ]
     },
     {
       "name": "Operating Systems Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "platforms"
+      ]
     },
     {
       "name": "Networking Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "protocols"
+      ]
     },
     {
       "name": "Cybersecurity Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "tools"
+      ]
     },
     {
       "name": "Artificial Intelligence Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "frameworks"
+      ]
     },
     {
       "name": "Machine Learning Data",
-      "status": "planned"
+      "status": "started",
+      "registries": [
+        "frameworks"
+      ]
     },
     {
       "name": "Mathematics & Science Data",

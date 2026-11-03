@@ -1,0 +1,391 @@
+{
+  "registry": "platforms",
+  "version": "0.1.0",
+  "note": "Starter list (draft). Add more freely; verify before use.",
+  "items": [
+    {
+      "platform_id": "linux",
+      "name": "Linux",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "debian",
+      "name": "Debian",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "ubuntu",
+      "name": "Ubuntu",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "fedora",
+      "name": "Fedora",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "alpine-linux",
+      "name": "Alpine Linux",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "arch-linux",
+      "name": "Arch Linux",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "freebsd",
+      "name": "FreeBSD",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "openbsd",
+      "name": "OpenBSD",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "macos",
+      "name": "macOS",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "windows",
+      "name": "Windows",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "android",
+      "name": "Android",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "ios",
+      "name": "iOS",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "ipados",
+      "name": "iPadOS",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "chromeos",
+      "name": "ChromeOS",
+      "category": "operating-system",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "termux",
+      "name": "Termux",
+      "category": "android-terminal-environment",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "wsl",
+      "name": "Windows Subsystem for Linux",
+      "category": "compatibility-layer",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "aws",
+      "name": "Amazon Web Services",
+      "category": "cloud",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "azure",
+      "name": "Microsoft Azure",
+      "category": "cloud",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "gcp",
+      "name": "Google Cloud Platform",
+      "category": "cloud",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "cloudflare",
+      "name": "Cloudflare",
+      "category": "cloud-edge",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "digitalocean",
+      "name": "DigitalOcean",
+      "category": "cloud",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "hetzner",
+      "name": "Hetzner",
+      "category": "cloud",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "vercel",
+      "name": "Vercel",
+      "category": "cloud-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "netlify",
+      "name": "Netlify",
+      "category": "cloud-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "heroku",
+      "name": "Heroku",
+      "category": "cloud-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "fly-io",
+      "name": "Fly.io",
+      "category": "cloud-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "render",
+      "name": "Render",
+      "category": "cloud-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "railway",
+      "name": "Railway",
+      "category": "cloud-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "github-pages",
+      "name": "GitHub Pages",
+      "category": "static-hosting",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "firebase",
+      "name": "Firebase",
+      "category": "backend-platform",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "supabase",
+      "name": "Supabase",
+      "category": "backend-platform",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "vps-self-hosted",
+      "name": "VPS / Self-hosted server",
+      "category": "self-hosted",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "raspberry-pi",
+      "name": "Raspberry Pi",
+      "category": "hardware",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "raspberry-pi-pico",
+      "name": "Raspberry Pi Pico (RP2040)",
+      "category": "hardware-mcu",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "arduino-boards",
+      "name": "Arduino boards",
+      "category": "hardware-mcu",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "esp32",
+      "name": "ESP32",
+      "category": "hardware-mcu",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "esp8266",
+      "name": "ESP8266",
+      "category": "hardware-mcu",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "stm32",
+      "name": "STM32",
+      "category": "hardware-mcu",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "nrf52",
+      "name": "Nordic nRF52",
+      "category": "hardware-mcu",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "jetson",
+      "name": "NVIDIA Jetson",
+      "category": "hardware",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "beaglebone",
+      "name": "BeagleBone",
+      "category": "hardware",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "plc",
+      "name": "PLC (programmable logic controller)",
+      "category": "industrial",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "x86-64",
+      "name": "x86-64",
+      "category": "cpu-architecture",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "arm64",
+      "name": "ARM64 (AArch64)",
+      "category": "cpu-architecture",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "riscv",
+      "name": "RISC-V",
+      "category": "cpu-architecture",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "webassembly-target",
+      "name": "WebAssembly",
+      "category": "execution-target",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "jvm-target",
+      "name": "JVM",
+      "category": "execution-target",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    },
+    {
+      "platform_id": "dotnet-clr",
+      "name": ".NET CLR",
+      "category": "execution-target",
+      "verification_status": "draft",
+      "trust_level": "unrated",
+      "version": "0.1.0"
+    }
+  ]
+}
