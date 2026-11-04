@@ -8,3 +8,6 @@ security/.baselines/
 security/.integrity.log
 
 *.bak-*
+
+security/malware-scan/.quarantine/
+security/malware-scan/.scan.log
