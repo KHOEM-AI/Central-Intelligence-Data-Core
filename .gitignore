@@ -6,3 +6,5 @@ backups/
 # file-integrity protection (added, does not affect CIDC data)
 security/.baselines/
 security/.integrity.log
+
+*.bak-*
