@@ -30,9 +30,10 @@
         "CPython"
       ],
       "documentation": "https://docs.python.org/3/",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "python"
+      "language_id": "python",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-javascript",
@@ -61,9 +62,10 @@
         "browser"
       ],
       "documentation": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "javascript"
+      "language_id": "javascript",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-typescript",
@@ -93,9 +95,10 @@
         "browser"
       ],
       "documentation": "https://www.typescriptlang.org/docs/",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "typescript"
+      "language_id": "typescript",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-html",
@@ -171,9 +174,10 @@
         "JVM"
       ],
       "documentation": "https://docs.oracle.com/en/java/",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "java"
+      "language_id": "java",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-c",
@@ -200,10 +204,11 @@
       "runtime": [
         "native"
       ],
-      "documentation": "https://en.cppreference.com/w/c",
-      "verification_status": "draft",
+      "documentation": "https://en.cppreference.com/c",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "c"
+      "language_id": "c",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-cpp",
@@ -232,10 +237,11 @@
       "runtime": [
         "native"
       ],
-      "documentation": "https://en.cppreference.com/w/cpp",
-      "verification_status": "draft",
+      "documentation": "https://en.cppreference.com/cpp",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "cpp"
+      "language_id": "cpp",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-csharp",
@@ -261,9 +267,10 @@
         ".NET"
       ],
       "documentation": "https://learn.microsoft.com/en-us/dotnet/csharp/",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "csharp"
+      "language_id": "csharp",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-go",
@@ -289,9 +296,10 @@
         "native"
       ],
       "documentation": "https://go.dev/doc/",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "go"
+      "language_id": "go",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-rust",
@@ -316,10 +324,11 @@
       "runtime": [
         "native"
       ],
-      "documentation": "https://doc.rust-lang.org/",
-      "verification_status": "draft",
+      "documentation": "https://doc.rust-lang.org/stable/",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "rust"
+      "language_id": "rust",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-php",
@@ -429,9 +438,10 @@
         "JVM"
       ],
       "documentation": "https://kotlinlang.org/docs/home.html",
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "version": "0.1.0",
-      "language_id": "kotlin"
+      "language_id": "kotlin",
+      "updated_date": "2026-11-03"
     },
     {
       "file_format_id": "ff-dart",

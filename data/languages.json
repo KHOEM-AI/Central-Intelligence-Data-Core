@@ -29,9 +29,11 @@
       "groups": [
         "web"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "typescript",
@@ -39,9 +41,11 @@
       "groups": [
         "web"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://www.typescriptlang.org/docs/",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "php",
@@ -69,9 +73,11 @@
       "groups": [
         "general-purpose"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://docs.python.org/3/",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "java",
@@ -80,9 +86,11 @@
         "general-purpose",
         "mobile"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://docs.oracle.com/en/java/",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "csharp",
@@ -91,9 +99,11 @@
         "general-purpose",
         "game-graphics"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "go",
@@ -101,9 +111,11 @@
       "groups": [
         "general-purpose"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://go.dev/doc/",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "ruby",
@@ -122,9 +134,11 @@
         "general-purpose",
         "mobile"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://kotlinlang.org/docs/home.html",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "dart",
@@ -173,9 +187,11 @@
       "groups": [
         "systems"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://en.cppreference.com/c",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "cpp",
@@ -184,9 +200,11 @@
         "systems",
         "game-graphics"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://en.cppreference.com/cpp",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "rust",
@@ -194,9 +212,11 @@
       "groups": [
         "systems"
       ],
-      "verification_status": "draft",
+      "verification_status": "pending_review",
       "trust_level": "unrated",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "source": "https://doc.rust-lang.org/stable/",
+      "updated_date": "2026-11-03"
     },
     {
       "language_id": "assembly",
