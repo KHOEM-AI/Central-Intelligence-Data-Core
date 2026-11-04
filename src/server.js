@@ -63,8 +63,13 @@ http.createServer(async (req, res) => {
         const idKey = Object.keys(items[0] || {})[0];
         return send(req, res, 200, { item: items.find((i) => i[idKey] === b.id) || null });
       }
+      const eq = (v, w) => String(v || "").toLowerCase() === String(w).toLowerCase();
+      if (b.language) items = items.filter((i) => eq(i.language_id, b.language) || (i.languages || []).some((l) => eq(l, b.language)) || (i.query_languages || []).some((l) => eq(l, b.language)));
+      for (const k of ["domain", "category", "kind"]) if (b[k]) items = items.filter((i) => eq(i[k], b[k]));
       if (b.query) { const q = String(b.query).toLowerCase(); items = items.filter((i) => [i.name, i.language, i.language_id, i.file_format_id, (i.groups || []).join(" "), (i.extensions || []).join(" "), i.mime_type, i.framework_id, i.database_id, i.protocol_id, i.tool_id, i.platform_id, i.template_id, i.category, i.domain, i.kind, [].concat(i.type || []).join(" "), (i.languages || []).join(" "), (i.stack || []).join(" ")].filter(Boolean).join(" ").toLowerCase().includes(q)); }
-      return send(req, res, 200, { count: items.length, items });
+      const total = items.length;
+      if (b.limit !== undefined) { const off = Math.max(0, parseInt(b.offset, 10) || 0), lim = Math.min(500, Math.max(1, parseInt(b.limit, 10) || 50)); items = items.slice(off, off + lim); }
+      return send(req, res, 200, { count: total, items });
     }
     send(req, res, 404, { error: "not_found" });
   } catch (e) { send(req, res, 500, { error: "server_error" }); }

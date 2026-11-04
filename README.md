@@ -17,3 +17,7 @@ Token ទុកក្នុង `~/.cidc_env` (មិន push): `export CIDC_TOKE
 - ពិនិត្យទិន្នន័យ៖ `npm run validate`
 
 ស្ថានភាពទិន្នន័យទាំងអស់ = `draft` រហូតដល់ត្រូវបានផ្ទៀងផ្ទាត់។
+
+
+## Search filters
+`POST /api/cidc/search` body: `collection` (required), `query`, `verification_status`, `language`, `domain`, `category`, `kind`, and optional `limit` (max 500) + `offset`. `count` is always the total before paging.
