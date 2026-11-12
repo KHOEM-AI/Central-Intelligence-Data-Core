@@ -30,5 +30,9 @@
   {
     "name": "KHOEM_AI",
     "path": "~/KHOEM_AI/KHOEM_AI"
+  },
+  {
+    "name": "CIDC",
+    "path": "~/Central-Intelligence-Data-Core"
   }
 ]
