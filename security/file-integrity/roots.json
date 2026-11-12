@@ -34,5 +34,9 @@
   {
     "name": "CIDC",
     "path": "~/Central-Intelligence-Data-Core"
+  },
+  {
+    "name": "CAI",
+    "path": "~/CAI"
   }
 ]
