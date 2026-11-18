@@ -38,5 +38,9 @@
   {
     "name": "CAI",
     "path": "~/CAI"
+  },
+  {
+    "name": "MI-K",
+    "path": "~/MI-K-VISION-3D"
   }
 ]
