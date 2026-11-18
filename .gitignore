@@ -11,3 +11,4 @@ security/.integrity.log
 
 security/malware-scan/.quarantine/
 security/malware-scan/.scan.log
+security/file-integrity/roots.json.before-*
