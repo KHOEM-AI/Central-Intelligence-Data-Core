@@ -10,7 +10,7 @@ const BASE_DIR = join(ROOT_DIR, 'security', '.baselines');
 const LOG = join(ROOT_DIR, 'security', '.integrity.log');
 const ROOTS_FILE = join(HERE, 'roots.json');
 
-const SKIP_DIRS = new Set(['node_modules', '.git', '.expo', 'dist', 'build', 'coverage', '.vite', '.pnpm-store', '.cache', '.baselines']);
+const SKIP_DIRS = new Set(['node_modules', '.git', '.expo', 'dist', 'build', 'coverage', '.vite', '.pnpm-store', '.cache', '.baselines', '__pycache__']);
 const ROOT_ONLY_SKIP = new Set(['data', 'data_clean', 'output', 'logs', 'tmp', 'corpus-sample']);
 const SKIP_FILE = /(\.(log|pid|tmp)$)|\.bak|\.backup|\.before-|\.broken-backup|\.zoom-backup|^\.baseline\.json$|^\.integrity\.log$/;
 const MAX_SIZE = 2 * 1024 * 1024;
